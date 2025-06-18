@@ -1,0 +1,10 @@
+2025-06-16 10:02:09,634 - ERROR - VPN não conectada - Não foi possível resolver o host Oracle
+2025-06-16 10:02:09,634 - ERROR - Erro na conexão Oracle: VPN não conectada
+2025-06-16 10:02:09,635 - INFO - Aguardando 5 segundos antes da próxima tentativa...
+2025-06-16 10:02:14,636 - ERROR - VPN não conectada - Não foi possível resolver o host Oracle
+2025-06-16 10:02:14,636 - ERROR - Erro na conexão Oracle: VPN não conectada
+2025-06-16 10:02:14,636 - INFO - Aguardando 5 segundos antes da próxima tentativa...
+2025-06-16 10:02:19,696 - ERROR - VPN não conectada - Não foi possível resolver o host Oracle
+2025-06-16 10:02:19,696 - ERROR - Erro na conexão Oracle: VPN não conectada
+2025-06-16 10:02:19,713 - ERROR - Erro ao carregar dados de treino: VPN não conectada
+2025-06-16 10:02:19,713 - ERROR - Erro no processo principal: VPN não conectada

@@ -1,0 +1,6 @@
+2025-06-15 16:07:18,702 - ERROR - VPN não conectada - Não foi possível resolver o host Oracle
+2025-06-15 16:07:18,702 - ERROR - Erro na conexão Oracle: VPN não conectada
+2025-06-15 16:07:18,702 - INFO - Aguardando 5 segundos antes da próxima tentativa...
+2025-06-15 16:07:23,707 - ERROR - VPN não conectada - Não foi possível resolver o host Oracle
+2025-06-15 16:07:23,707 - ERROR - Erro na conexão Oracle: VPN não conectada
+2025-06-15 16:07:23,707 - INFO - Aguardando 5 segundos antes da próxima tentativa...

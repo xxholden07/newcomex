@@ -1,0 +1,49 @@
+2025-05-21 13:58:30,015 - INFO - Carregando tabelas auxiliares dos arquivos JSON...
+2025-05-21 13:58:30,020 - INFO - Colunas da tabela CO_BLOCO: ['CO_PAIS', 'CO_BLOCO', 'NO_BLOCO', 'NO_BLOCO_ING', 'NO_BLOCO_ESP']
+2025-05-21 13:58:30,020 - INFO - Tabela CO_BLOCO carregada com sucesso: 322 registros
+2025-05-21 13:58:30,129 - INFO - Colunas da tabela CO_CGCE_N3: ['CO_NCM', 'NO_NCM_POR', 'CO_CGCE_N3', 'NO_CGCE_N3', 'NO_CGCE_N3_ING', 'NO_CGCE_N3_ESP', 'CO_CGCE_N2', 'NO_CGCE_N2', 'NO_CGCE_N2_ING', 'NO_CGCE_N2_ESP', 'CO_CGCE_N1', 'NO_CGCE_N1', 'NO_CGCE_N1_ING', 'NO_CGCE_N1_ESP']
+2025-05-21 13:58:30,129 - INFO - Tabela CO_CGCE_N3 carregada com sucesso: 13720 registros
+2025-05-21 13:58:30,225 - INFO - Colunas da tabela CO_CUCI: ['CO_NCM', 'NO_NCM_POR', 'CO_CUCI_ITEM', 'NO_CUCI_ITEM', 'CO_CUCI_SUB', 'NO_CUCI_SUB', 'CO_CUCI_GRUPO', 'NO_CUCI_GRUPO', 'CO_CUCI_DIVISAO', 'NO_CUCI_DIVISAO', 'CO_CUCI_SEC', 'NO_CUCI_SEC']
+2025-05-21 13:58:30,225 - INFO - Tabela CO_CUCI carregada com sucesso: 13720 registros
+2025-05-21 13:58:30,273 - INFO - Colunas da tabela CO_CUCI_GRUPO_CO_ISIC_SECAO: ['CO_NCM', 'NO_NCM_POR', 'CO_ISIC_SECAO', 'NO_ISIC_SECAO', 'CO_CUCI_GRUPO', 'NO_CUCI_GRUPO']
+2025-05-21 13:58:30,273 - INFO - Tabela CO_CUCI_GRUPO_CO_ISIC_SECAO carregada com sucesso: 13720 registros
+2025-05-21 13:58:30,317 - INFO - Colunas da tabela CO_FAT_AGREG: ['CO_NCM', 'NO_NCM_POR', 'CO_FAT_AGREG', 'NO_FAT_AGREG', 'NO_FAT_AGREG_GP']
+2025-05-21 13:58:30,317 - INFO - Tabela CO_FAT_AGREG carregada com sucesso: 13699 registros
+2025-05-21 13:58:30,465 - INFO - Colunas da tabela CO_ISIC_CLASSE: ['CO_NCM', 'NO_NCM_POR', 'CO_ISIC_CLASSE', 'NO_ISIC_CLASSE', 'NO_ISIC_CLASSE_ING', 'NO_ISIC_CLASSE_ESP', 'CO_ISIC_GRUPO', 'NO_ISIC_GRUPO', 'NO_ISIC_GRUPO_ING', 'NO_ISIC_GRUPO_ESP', 'CO_ISIC_DIVISAO', 'NO_ISIC_DIVISAO', 'NO_ISIC_DIVISAO_ING', 'NO_ISIC_DIVISAO_ESP', 'CO_ISIC_SECAO', 'NO_ISIC_SECAO', 'NO_ISIC_SECAO_ING', 'NO_ISIC_SECAO_ESP']
+2025-05-21 13:58:30,466 - INFO - Tabela CO_ISIC_CLASSE carregada com sucesso: 13720 registros
+2025-05-21 13:58:30,476 - INFO - Colunas da tabela CO_MUN_GEO: ['CO_MUN_GEO', 'NO_MUN', 'NO_MUN_MIN', 'SG_UF']
+2025-05-21 13:58:30,477 - INFO - Tabela CO_MUN_GEO carregada com sucesso: 5570 registros
+2025-05-21 13:58:30,482 - INFO - Colunas da tabela CO_PAIS: ['CO_PAIS', 'CO_PAIS_ISON3', 'CO_PAIS_ISOA3', 'NO_PAIS', 'NO_PAIS_ING', 'NO_PAIS_ESP']
+2025-05-21 13:58:30,482 - INFO - Tabela CO_PAIS carregada com sucesso: 281 registros
+2025-05-21 13:58:30,531 - INFO - Colunas da tabela CO_PPE: ['CO_NCM', 'NO_NCM_POR', 'CO_PPE', 'NO_PPE', 'NO_PPE_MIN', 'NO_PPE_ING']
+2025-05-21 13:58:30,532 - INFO - Tabela CO_PPE carregada com sucesso: 13418 registros
+2025-05-21 13:58:30,580 - INFO - Colunas da tabela CO_PPI: ['CO_NCM', 'NO_NCM_POR', 'CO_PPI', 'NO_PPI', 'NO_PPI_MIN', 'NO_PPI_ING']
+2025-05-21 13:58:30,581 - INFO - Tabela CO_PPI carregada com sucesso: 13418 registros
+2025-05-21 13:58:30,757 - INFO - Colunas da tabela CO_SH6: ['CO_NCM', 'NO_NCM_POR', 'CO_SH6', 'NO_SH6_POR', 'NO_SH6_ESP', 'NO_SH6_ING', 'CO_SH4', 'NO_SH4_POR', 'NO_SH4_ESP', 'NO_SH4_ING', 'CO_SH2', 'NO_SH2_POR', 'NO_SH2_ESP', 'NO_SH2_ING', 'CO_NCM_SECROM', 'NO_SEC_POR', 'NO_SEC_ESP', 'NO_SEC_ING']
+2025-05-21 13:58:30,758 - INFO - Tabela CO_SH6 carregada com sucesso: 13720 registros
+2025-05-21 13:58:30,793 - INFO - Colunas da tabela CO_SIIT: ['CO_NCM', 'NO_NCM_POR', 'CO_SIIT', 'NO_SIIT']
+2025-05-21 13:58:30,794 - INFO - Tabela CO_SIIT carregada com sucesso: 13418 registros
+2025-05-21 13:58:30,797 - INFO - Colunas da tabela CO_UF: ['CO_UF', 'SG_UF', 'NO_UF', 'NO_REGIAO']
+2025-05-21 13:58:30,797 - INFO - Tabela CO_UF carregada com sucesso: 34 registros
+2025-05-21 13:58:30,835 - INFO - Colunas da tabela CO_UNID: ['CO_NCM', 'NO_NCM_POR', 'CO_UNID', 'NO_UNID', 'SG_UNID']
+2025-05-21 13:58:30,836 - INFO - Tabela CO_UNID carregada com sucesso: 13720 registros
+2025-05-21 13:58:30,840 - INFO - Colunas da tabela CO_URF: ['CO_URF', 'NO_URF']
+2025-05-21 13:58:30,841 - INFO - Tabela CO_URF carregada com sucesso: 279 registros
+2025-05-21 13:58:30,843 - INFO - Colunas da tabela CO_VIA: ['CO_VIA', 'NO_VIA']
+2025-05-21 13:58:30,843 - INFO - Tabela CO_VIA carregada com sucesso: 17 registros
+2025-05-21 13:58:30,843 - INFO - Carregando dados de importação do arquivo JSON (NDJSON)...
+2025-05-21 13:58:44,122 - INFO - Dados carregados com sucesso. Total de registros: 2273708
+2025-05-21 13:58:44,122 - INFO - Colunas do JSON: ['CO_ANO', 'CO_MES', 'CO_NCM', 'CO_UNID', 'CO_PAIS', 'SG_UF_NCM', 'CO_VIA', 'CO_URF', 'QT_ESTAT', 'KG_LIQUIDO', 'VL_FOB', 'VL_FRETE', 'VL_SEGURO']
+2025-05-21 13:58:44,123 - INFO - Enriquecendo dados com tabelas auxiliares relevantes...
+2025-05-21 13:58:44,123 - INFO - Fazendo merge com CO_BLOCO pela chave: CO_PAIS <-> CO_PAIS
+2025-05-21 13:58:44,623 - INFO - Fazendo merge com CO_CGCE_N3 pela chave: CO_NCM <-> CO_NCM
+2025-05-21 13:58:45,739 - INFO - Fazendo merge com CO_CUCI pela chave: CO_NCM <-> CO_NCM
+2025-05-21 13:58:47,627 - INFO - Fazendo merge com CO_CUCI_GRUPO_CO_ISIC_SECAO pela chave: CO_NCM <-> CO_NCM
+2025-05-21 13:58:49,511 - INFO - Fazendo merge com CO_FAT_AGREG pela chave: CO_NCM <-> CO_NCM
+2025-05-21 13:58:51,794 - INFO - Fazendo merge com CO_ISIC_CLASSE pela chave: CO_NCM <-> CO_NCM
+2025-05-21 13:58:54,577 - INFO - Fazendo merge com CO_MUN_GEO pela chave: SG_UF_NCM <-> SG_UF
+2025-05-21 13:58:54,935 - ERROR - Erro ao enriquecer dados: Unable to allocate 10.7 GiB for an array with shape (1432810479,) and data type int64
+2025-05-21 13:58:54,937 - INFO - Analisando agrupamento por país...
+2025-05-21 14:02:36,732 - INFO - Arquivos salvos com sucesso:
+ - indovinya_importadores_ranking_20250521_135855.csv
+ - indovinya_importadores_20250521_135855.csv

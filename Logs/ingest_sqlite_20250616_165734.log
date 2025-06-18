@@ -1,0 +1,342 @@
+2025-06-16 16:57:34,516 - INFO - Iniciando processo de ingestão...
+2025-06-16 16:57:34,516 - INFO - Apagando tabelas existentes...
+2025-06-16 16:57:34,543 - INFO - Tabela Empresas apagada (se existia)
+2025-06-16 16:57:34,566 - INFO - Tabela Estabelecimentos apagada (se existia)
+2025-06-16 16:57:34,582 - INFO - Tabela Simples apagada (se existia)
+2025-06-16 16:57:34,601 - INFO - Tabela Socios apagada (se existia)
+2025-06-16 16:57:34,621 - INFO - Tabela Paises apagada (se existia)
+2025-06-16 16:57:34,632 - INFO - Tabela Municipios apagada (se existia)
+2025-06-16 16:57:34,669 - INFO - Tabela Qualificacoes apagada (se existia)
+2025-06-16 16:57:34,682 - INFO - Tabela Naturezas apagada (se existia)
+2025-06-16 16:57:34,702 - INFO - Tabela Cnaes apagada (se existia)
+2025-06-16 16:57:34,720 - INFO - Tabela Motivos apagada (se existia)
+2025-06-16 16:57:34,721 - INFO - Todas as tabelas foram apagadas com sucesso
+2025-06-16 16:57:34,875 - INFO - Tabelas criadas com sucesso
+2025-06-16 16:57:34,875 - INFO - 
+==================================================
+2025-06-16 16:57:34,875 - INFO - Iniciando processamento da tabela: Paises
+2025-06-16 16:57:34,875 - INFO - Total de arquivos para processar: 1
+2025-06-16 16:57:34,875 - INFO - Processando arquivo Input/dados_parquet\Paises_PAISCSV.parquet para tabela Paises
+2025-06-16 16:57:34,943 - INFO - Total de registros no arquivo: 254
+2025-06-16 16:57:34,943 - ERROR - Erro ao processar arquivo Input/dados_parquet\Paises_PAISCSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:34,960 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:34,960 - ERROR - Falha ao processar arquivo Input/dados_parquet\Paises_PAISCSV.parquet
+2025-06-16 16:57:34,960 - INFO - Tabela Paises processada com sucesso
+2025-06-16 16:57:34,964 - INFO - 
+==================================================
+2025-06-16 16:57:34,964 - INFO - Iniciando processamento da tabela: Municipios
+2025-06-16 16:57:34,964 - INFO - Total de arquivos para processar: 1
+2025-06-16 16:57:34,964 - INFO - Processando arquivo Input/dados_parquet\Municipios_MUNICCSV.parquet para tabela Municipios
+2025-06-16 16:57:34,966 - INFO - Total de registros no arquivo: 5571
+2025-06-16 16:57:34,966 - ERROR - Erro ao processar arquivo Input/dados_parquet\Municipios_MUNICCSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:34,968 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:34,969 - ERROR - Falha ao processar arquivo Input/dados_parquet\Municipios_MUNICCSV.parquet
+2025-06-16 16:57:34,969 - INFO - Tabela Municipios processada com sucesso
+2025-06-16 16:57:34,969 - INFO - 
+==================================================
+2025-06-16 16:57:34,969 - INFO - Iniciando processamento da tabela: Qualificacoes
+2025-06-16 16:57:34,969 - INFO - Total de arquivos para processar: 1
+2025-06-16 16:57:34,969 - INFO - Processando arquivo Input/dados_parquet\Qualificacoes_QUALSCSV.parquet para tabela Qualificacoes
+2025-06-16 16:57:34,969 - INFO - Total de registros no arquivo: 67
+2025-06-16 16:57:34,969 - ERROR - Erro ao processar arquivo Input/dados_parquet\Qualificacoes_QUALSCSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:34,969 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:34,969 - ERROR - Falha ao processar arquivo Input/dados_parquet\Qualificacoes_QUALSCSV.parquet
+2025-06-16 16:57:34,969 - INFO - Tabela Qualificacoes processada com sucesso
+2025-06-16 16:57:34,969 - INFO - 
+==================================================
+2025-06-16 16:57:34,969 - INFO - Iniciando processamento da tabela: Naturezas
+2025-06-16 16:57:34,969 - INFO - Total de arquivos para processar: 1
+2025-06-16 16:57:34,969 - INFO - Processando arquivo Input/dados_parquet\Naturezas_NATJUCSV.parquet para tabela Naturezas
+2025-06-16 16:57:34,976 - INFO - Total de registros no arquivo: 89
+2025-06-16 16:57:34,977 - ERROR - Erro ao processar arquivo Input/dados_parquet\Naturezas_NATJUCSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:34,977 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:34,977 - ERROR - Falha ao processar arquivo Input/dados_parquet\Naturezas_NATJUCSV.parquet
+2025-06-16 16:57:34,977 - INFO - Tabela Naturezas processada com sucesso
+2025-06-16 16:57:34,977 - INFO - 
+==================================================
+2025-06-16 16:57:34,977 - INFO - Iniciando processamento da tabela: Cnaes
+2025-06-16 16:57:34,977 - INFO - Total de arquivos para processar: 1
+2025-06-16 16:57:34,977 - INFO - Processando arquivo Input/dados_parquet\Cnaes_CNAECSV.parquet para tabela Cnaes
+2025-06-16 16:57:34,977 - INFO - Total de registros no arquivo: 1358
+2025-06-16 16:57:34,977 - ERROR - Erro ao processar arquivo Input/dados_parquet\Cnaes_CNAECSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:34,977 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:34,977 - ERROR - Falha ao processar arquivo Input/dados_parquet\Cnaes_CNAECSV.parquet
+2025-06-16 16:57:34,977 - INFO - Tabela Cnaes processada com sucesso
+2025-06-16 16:57:34,987 - INFO - 
+==================================================
+2025-06-16 16:57:34,987 - INFO - Iniciando processamento da tabela: Motivos
+2025-06-16 16:57:34,987 - INFO - Total de arquivos para processar: 1
+2025-06-16 16:57:34,987 - INFO - Processando arquivo Input/dados_parquet\Motivos_MOTICSV.parquet para tabela Motivos
+2025-06-16 16:57:34,988 - INFO - Total de registros no arquivo: 62
+2025-06-16 16:57:34,989 - ERROR - Erro ao processar arquivo Input/dados_parquet\Motivos_MOTICSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:34,990 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:34,990 - ERROR - Falha ao processar arquivo Input/dados_parquet\Motivos_MOTICSV.parquet
+2025-06-16 16:57:34,990 - INFO - Tabela Motivos processada com sucesso
+2025-06-16 16:57:34,990 - INFO - 
+==================================================
+2025-06-16 16:57:34,990 - INFO - Iniciando processamento da tabela: Empresas
+2025-06-16 16:57:34,990 - INFO - Total de arquivos para processar: 10
+2025-06-16 16:57:34,993 - INFO - Processando arquivo Input/dados_parquet\Empresas0_EMPRECSV.parquet para tabela Empresas
+2025-06-16 16:57:36,723 - INFO - Total de registros no arquivo: 22293499
+2025-06-16 16:57:36,723 - ERROR - Erro ao processar arquivo Input/dados_parquet\Empresas0_EMPRECSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:36,739 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:36,739 - ERROR - Falha ao processar arquivo Input/dados_parquet\Empresas0_EMPRECSV.parquet
+2025-06-16 16:57:36,759 - INFO - Processando arquivo Input/dados_parquet\Empresas1_EMPRECSV.parquet para tabela Empresas
+2025-06-16 16:57:37,289 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 16:57:37,304 - ERROR - Erro ao processar arquivo Input/dados_parquet\Empresas1_EMPRECSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:37,304 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:37,304 - ERROR - Falha ao processar arquivo Input/dados_parquet\Empresas1_EMPRECSV.parquet
+2025-06-16 16:57:37,304 - INFO - Processando arquivo Input/dados_parquet\Empresas2_EMPRECSV.parquet para tabela Empresas
+2025-06-16 16:57:37,775 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 16:57:37,775 - ERROR - Erro ao processar arquivo Input/dados_parquet\Empresas2_EMPRECSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:37,775 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:37,775 - ERROR - Falha ao processar arquivo Input/dados_parquet\Empresas2_EMPRECSV.parquet
+2025-06-16 16:57:37,775 - INFO - Processando arquivo Input/dados_parquet\Empresas3_EMPRECSV.parquet para tabela Empresas
+2025-06-16 16:57:38,360 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 16:57:38,362 - ERROR - Erro ao processar arquivo Input/dados_parquet\Empresas3_EMPRECSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:38,363 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:38,364 - ERROR - Falha ao processar arquivo Input/dados_parquet\Empresas3_EMPRECSV.parquet
+2025-06-16 16:57:38,364 - INFO - Processando arquivo Input/dados_parquet\Empresas4_EMPRECSV.parquet para tabela Empresas
+2025-06-16 16:57:39,157 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 16:57:39,157 - ERROR - Erro ao processar arquivo Input/dados_parquet\Empresas4_EMPRECSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:39,157 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:39,157 - ERROR - Falha ao processar arquivo Input/dados_parquet\Empresas4_EMPRECSV.parquet
+2025-06-16 16:57:39,157 - INFO - Processando arquivo Input/dados_parquet\Empresas5_EMPRECSV.parquet para tabela Empresas
+2025-06-16 16:57:39,676 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 16:57:39,680 - ERROR - Erro ao processar arquivo Input/dados_parquet\Empresas5_EMPRECSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:39,680 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:39,680 - ERROR - Falha ao processar arquivo Input/dados_parquet\Empresas5_EMPRECSV.parquet
+2025-06-16 16:57:39,680 - INFO - Processando arquivo Input/dados_parquet\Empresas6_EMPRECSV.parquet para tabela Empresas
+2025-06-16 16:57:40,597 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 16:57:40,597 - ERROR - Erro ao processar arquivo Input/dados_parquet\Empresas6_EMPRECSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:40,597 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:40,597 - ERROR - Falha ao processar arquivo Input/dados_parquet\Empresas6_EMPRECSV.parquet
+2025-06-16 16:57:40,597 - INFO - Processando arquivo Input/dados_parquet\Empresas7_EMPRECSV.parquet para tabela Empresas
+2025-06-16 16:57:41,703 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 16:57:41,710 - ERROR - Erro ao processar arquivo Input/dados_parquet\Empresas7_EMPRECSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:41,711 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:41,712 - ERROR - Falha ao processar arquivo Input/dados_parquet\Empresas7_EMPRECSV.parquet
+2025-06-16 16:57:41,713 - INFO - Processando arquivo Input/dados_parquet\Empresas8_EMPRECSV.parquet para tabela Empresas
+2025-06-16 16:57:42,309 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 16:57:42,310 - ERROR - Erro ao processar arquivo Input/dados_parquet\Empresas8_EMPRECSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:42,310 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:42,310 - ERROR - Falha ao processar arquivo Input/dados_parquet\Empresas8_EMPRECSV.parquet
+2025-06-16 16:57:42,310 - INFO - Processando arquivo Input/dados_parquet\Empresas9_EMPRECSV.parquet para tabela Empresas
+2025-06-16 16:57:42,908 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 16:57:42,910 - ERROR - Erro ao processar arquivo Input/dados_parquet\Empresas9_EMPRECSV.parquet: No module named 'pyarrow'
+2025-06-16 16:57:42,912 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:42,914 - ERROR - Falha ao processar arquivo Input/dados_parquet\Empresas9_EMPRECSV.parquet
+2025-06-16 16:57:42,914 - INFO - Tabela Empresas processada com sucesso
+2025-06-16 16:57:42,914 - INFO - 
+==================================================
+2025-06-16 16:57:42,915 - INFO - Iniciando processamento da tabela: Estabelecimentos
+2025-06-16 16:57:42,915 - INFO - Total de arquivos para processar: 9
+2025-06-16 16:57:42,916 - INFO - Processando arquivo Input/dados_parquet\Estabelecimentos1_ESTABELE.parquet para tabela Estabelecimentos
+2025-06-16 16:57:44,512 - INFO - Total de registros no arquivo: 4753434
+2025-06-16 16:57:44,512 - ERROR - Erro ao processar arquivo Input/dados_parquet\Estabelecimentos1_ESTABELE.parquet: No module named 'pyarrow'
+2025-06-16 16:57:44,512 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:44,528 - ERROR - Falha ao processar arquivo Input/dados_parquet\Estabelecimentos1_ESTABELE.parquet
+2025-06-16 16:57:44,528 - INFO - Processando arquivo Input/dados_parquet\Estabelecimentos2_ESTABELE.parquet para tabela Estabelecimentos
+2025-06-16 16:57:46,354 - INFO - Total de registros no arquivo: 4753434
+2025-06-16 16:57:46,354 - ERROR - Erro ao processar arquivo Input/dados_parquet\Estabelecimentos2_ESTABELE.parquet: No module named 'pyarrow'
+2025-06-16 16:57:46,354 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 141, in processar_arquivo_parquet
+    batch_pd = batch.to_pandas()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2456, in to_pandas
+    return self._to_pandas_without_object_columns(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\polars\dataframe\frame.py", line 2507, in _to_pandas_without_object_columns
+    record_batches = df._df.to_pandas()
+                     ^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pyarrow'
+
+2025-06-16 16:57:46,359 - ERROR - Falha ao processar arquivo Input/dados_parquet\Estabelecimentos2_ESTABELE.parquet
+2025-06-16 16:57:46,359 - INFO - Processando arquivo Input/dados_parquet\Estabelecimentos3_ESTABELE.parquet para tabela Estabelecimentos

@@ -1,0 +1,1296 @@
+2025-06-16 16:58:50,851 - INFO - Iniciando processo de ingestão...
+2025-06-16 16:58:50,851 - INFO - Apagando tabelas existentes...
+2025-06-16 16:58:50,885 - INFO - Tabela Empresas apagada (se existia)
+2025-06-16 16:58:50,903 - INFO - Tabela Estabelecimentos apagada (se existia)
+2025-06-16 16:58:50,921 - INFO - Tabela Simples apagada (se existia)
+2025-06-16 16:58:50,944 - INFO - Tabela Socios apagada (se existia)
+2025-06-16 16:58:50,965 - INFO - Tabela Paises apagada (se existia)
+2025-06-16 16:58:50,984 - INFO - Tabela Municipios apagada (se existia)
+2025-06-16 16:58:51,015 - INFO - Tabela Qualificacoes apagada (se existia)
+2025-06-16 16:58:51,027 - INFO - Tabela Naturezas apagada (se existia)
+2025-06-16 16:58:51,060 - INFO - Tabela Cnaes apagada (se existia)
+2025-06-16 16:58:51,075 - INFO - Tabela Motivos apagada (se existia)
+2025-06-16 16:58:51,075 - INFO - Todas as tabelas foram apagadas com sucesso
+2025-06-16 16:58:51,251 - INFO - Tabelas criadas com sucesso
+2025-06-16 16:58:51,251 - INFO - 
+==================================================
+2025-06-16 16:58:51,251 - INFO - Iniciando processamento da tabela: Paises
+2025-06-16 16:58:51,251 - INFO - Total de arquivos para processar: 1
+2025-06-16 16:58:51,251 - INFO - Processando arquivo Input/dados_parquet\Paises_PAISCSV.parquet para tabela Paises
+2025-06-16 16:58:51,266 - INFO - Total de registros no arquivo: 254
+2025-06-16 16:58:54,402 - INFO - Processados 254 de 254 registros
+2025-06-16 16:58:54,402 - INFO - Arquivo Input/dados_parquet\Paises_PAISCSV.parquet processado com sucesso
+2025-06-16 16:58:54,402 - INFO - Tabela Paises processada com sucesso
+2025-06-16 16:58:54,402 - INFO - 
+==================================================
+2025-06-16 16:58:54,402 - INFO - Iniciando processamento da tabela: Municipios
+2025-06-16 16:58:54,402 - INFO - Total de arquivos para processar: 1
+2025-06-16 16:58:54,416 - INFO - Processando arquivo Input/dados_parquet\Municipios_MUNICCSV.parquet para tabela Municipios
+2025-06-16 16:58:54,421 - INFO - Total de registros no arquivo: 5571
+2025-06-16 16:58:54,441 - INFO - Processados 1000 de 5571 registros
+2025-06-16 16:58:54,476 - INFO - Processados 2000 de 5571 registros
+2025-06-16 16:58:54,510 - INFO - Processados 3000 de 5571 registros
+2025-06-16 16:58:54,537 - INFO - Processados 4000 de 5571 registros
+2025-06-16 16:58:54,566 - INFO - Processados 5000 de 5571 registros
+2025-06-16 16:58:54,588 - INFO - Processados 5571 de 5571 registros
+2025-06-16 16:58:54,588 - INFO - Arquivo Input/dados_parquet\Municipios_MUNICCSV.parquet processado com sucesso
+2025-06-16 16:58:54,588 - INFO - Tabela Municipios processada com sucesso
+2025-06-16 16:58:54,591 - INFO - 
+==================================================
+2025-06-16 16:58:54,591 - INFO - Iniciando processamento da tabela: Qualificacoes
+2025-06-16 16:58:54,591 - INFO - Total de arquivos para processar: 1
+2025-06-16 16:58:54,591 - INFO - Processando arquivo Input/dados_parquet\Qualificacoes_QUALSCSV.parquet para tabela Qualificacoes
+2025-06-16 16:58:54,591 - INFO - Total de registros no arquivo: 67
+2025-06-16 16:58:54,610 - INFO - Processados 67 de 67 registros
+2025-06-16 16:58:54,610 - INFO - Arquivo Input/dados_parquet\Qualificacoes_QUALSCSV.parquet processado com sucesso
+2025-06-16 16:58:54,610 - INFO - Tabela Qualificacoes processada com sucesso
+2025-06-16 16:58:54,610 - INFO - 
+==================================================
+2025-06-16 16:58:54,621 - INFO - Iniciando processamento da tabela: Naturezas
+2025-06-16 16:58:54,622 - INFO - Total de arquivos para processar: 1
+2025-06-16 16:58:54,622 - INFO - Processando arquivo Input/dados_parquet\Naturezas_NATJUCSV.parquet para tabela Naturezas
+2025-06-16 16:58:54,625 - INFO - Total de registros no arquivo: 89
+2025-06-16 16:58:54,646 - INFO - Processados 89 de 89 registros
+2025-06-16 16:58:54,647 - INFO - Arquivo Input/dados_parquet\Naturezas_NATJUCSV.parquet processado com sucesso
+2025-06-16 16:58:54,648 - INFO - Tabela Naturezas processada com sucesso
+2025-06-16 16:58:54,649 - INFO - 
+==================================================
+2025-06-16 16:58:54,650 - INFO - Iniciando processamento da tabela: Cnaes
+2025-06-16 16:58:54,651 - INFO - Total de arquivos para processar: 1
+2025-06-16 16:58:54,651 - INFO - Processando arquivo Input/dados_parquet\Cnaes_CNAECSV.parquet para tabela Cnaes
+2025-06-16 16:58:54,655 - INFO - Total de registros no arquivo: 1358
+2025-06-16 16:58:54,688 - INFO - Processados 1000 de 1358 registros
+2025-06-16 16:58:54,710 - INFO - Processados 1358 de 1358 registros
+2025-06-16 16:58:54,710 - INFO - Arquivo Input/dados_parquet\Cnaes_CNAECSV.parquet processado com sucesso
+2025-06-16 16:58:54,710 - INFO - Tabela Cnaes processada com sucesso
+2025-06-16 16:58:54,710 - INFO - 
+==================================================
+2025-06-16 16:58:54,710 - INFO - Iniciando processamento da tabela: Motivos
+2025-06-16 16:58:54,710 - INFO - Total de arquivos para processar: 1
+2025-06-16 16:58:54,710 - INFO - Processando arquivo Input/dados_parquet\Motivos_MOTICSV.parquet para tabela Motivos
+2025-06-16 16:58:54,725 - INFO - Total de registros no arquivo: 62
+2025-06-16 16:58:54,772 - INFO - Processados 62 de 62 registros
+2025-06-16 16:58:54,772 - INFO - Arquivo Input/dados_parquet\Motivos_MOTICSV.parquet processado com sucesso
+2025-06-16 16:58:54,773 - INFO - Tabela Motivos processada com sucesso
+2025-06-16 16:58:54,773 - INFO - 
+==================================================
+2025-06-16 16:58:54,773 - INFO - Iniciando processamento da tabela: Empresas
+2025-06-16 16:58:54,778 - INFO - Total de arquivos para processar: 10
+2025-06-16 16:58:54,778 - INFO - Processando arquivo Input/dados_parquet\Empresas0_EMPRECSV.parquet para tabela Empresas
+2025-06-16 16:58:56,570 - INFO - Total de registros no arquivo: 22293499
+2025-06-16 16:58:58,031 - INFO - Processados 100000 de 22293499 registros
+2025-06-16 16:58:59,479 - INFO - Processados 200000 de 22293499 registros
+2025-06-16 16:59:00,951 - INFO - Processados 300000 de 22293499 registros
+2025-06-16 16:59:02,421 - INFO - Processados 400000 de 22293499 registros
+2025-06-16 16:59:03,885 - INFO - Processados 500000 de 22293499 registros
+2025-06-16 16:59:05,262 - INFO - Processados 600000 de 22293499 registros
+2025-06-16 16:59:06,302 - INFO - Processados 700000 de 22293499 registros
+2025-06-16 16:59:07,231 - INFO - Processados 800000 de 22293499 registros
+2025-06-16 16:59:09,912 - INFO - Processados 900000 de 22293499 registros
+2025-06-16 16:59:11,365 - INFO - Processados 1000000 de 22293499 registros
+2025-06-16 16:59:12,200 - INFO - Processados 1100000 de 22293499 registros
+2025-06-16 16:59:13,249 - INFO - Processados 1200000 de 22293499 registros
+2025-06-16 16:59:14,247 - INFO - Processados 1300000 de 22293499 registros
+2025-06-16 16:59:15,115 - INFO - Processados 1400000 de 22293499 registros
+2025-06-16 16:59:15,950 - INFO - Processados 1500000 de 22293499 registros
+2025-06-16 16:59:16,781 - INFO - Processados 1600000 de 22293499 registros
+2025-06-16 16:59:17,583 - INFO - Processados 1700000 de 22293499 registros
+2025-06-16 16:59:18,398 - INFO - Processados 1800000 de 22293499 registros
+2025-06-16 16:59:19,497 - INFO - Processados 1900000 de 22293499 registros
+2025-06-16 16:59:20,465 - INFO - Processados 2000000 de 22293499 registros
+2025-06-16 16:59:21,361 - INFO - Processados 2100000 de 22293499 registros
+2025-06-16 16:59:22,315 - INFO - Processados 2200000 de 22293499 registros
+2025-06-16 16:59:23,197 - INFO - Processados 2300000 de 22293499 registros
+2025-06-16 16:59:24,116 - INFO - Processados 2400000 de 22293499 registros
+2025-06-16 16:59:25,332 - INFO - Processados 2500000 de 22293499 registros
+2025-06-16 16:59:26,215 - INFO - Processados 2600000 de 22293499 registros
+2025-06-16 16:59:27,116 - INFO - Processados 2700000 de 22293499 registros
+2025-06-16 16:59:27,997 - INFO - Processados 2800000 de 22293499 registros
+2025-06-16 16:59:28,834 - INFO - Processados 2900000 de 22293499 registros
+2025-06-16 16:59:29,814 - INFO - Processados 3000000 de 22293499 registros
+2025-06-16 16:59:30,715 - INFO - Processados 3100000 de 22293499 registros
+2025-06-16 16:59:31,582 - INFO - Processados 3200000 de 22293499 registros
+2025-06-16 16:59:32,397 - INFO - Processados 3300000 de 22293499 registros
+2025-06-16 16:59:33,200 - INFO - Processados 3400000 de 22293499 registros
+2025-06-16 16:59:34,115 - INFO - Processados 3500000 de 22293499 registros
+2025-06-16 16:59:34,927 - INFO - Processados 3600000 de 22293499 registros
+2025-06-16 16:59:35,736 - INFO - Processados 3700000 de 22293499 registros
+2025-06-16 16:59:36,716 - INFO - Processados 3800000 de 22293499 registros
+2025-06-16 16:59:37,616 - INFO - Processados 3900000 de 22293499 registros
+2025-06-16 16:59:38,448 - INFO - Processados 4000000 de 22293499 registros
+2025-06-16 16:59:39,980 - INFO - Processados 4100000 de 22293499 registros
+2025-06-16 16:59:41,881 - INFO - Processados 4200000 de 22293499 registros
+2025-06-16 16:59:43,412 - INFO - Processados 4300000 de 22293499 registros
+2025-06-16 16:59:44,664 - INFO - Processados 4400000 de 22293499 registros
+2025-06-16 16:59:46,280 - INFO - Processados 4500000 de 22293499 registros
+2025-06-16 16:59:47,049 - INFO - Processados 4600000 de 22293499 registros
+2025-06-16 16:59:48,133 - INFO - Processados 4700000 de 22293499 registros
+2025-06-16 16:59:48,916 - INFO - Processados 4800000 de 22293499 registros
+2025-06-16 16:59:49,783 - INFO - Processados 4900000 de 22293499 registros
+2025-06-16 16:59:50,579 - INFO - Processados 5000000 de 22293499 registros
+2025-06-16 16:59:51,499 - INFO - Processados 5100000 de 22293499 registros
+2025-06-16 16:59:52,536 - INFO - Processados 5200000 de 22293499 registros
+2025-06-16 16:59:53,729 - INFO - Processados 5300000 de 22293499 registros
+2025-06-16 16:59:54,632 - INFO - Processados 5400000 de 22293499 registros
+2025-06-16 16:59:55,519 - INFO - Processados 5500000 de 22293499 registros
+2025-06-16 16:59:56,483 - INFO - Processados 5600000 de 22293499 registros
+2025-06-16 16:59:57,463 - INFO - Processados 5700000 de 22293499 registros
+2025-06-16 16:59:58,399 - INFO - Processados 5800000 de 22293499 registros
+2025-06-16 16:59:59,560 - INFO - Processados 5900000 de 22293499 registros
+2025-06-16 17:00:00,788 - INFO - Processados 6000000 de 22293499 registros
+2025-06-16 17:00:01,665 - INFO - Processados 6100000 de 22293499 registros
+2025-06-16 17:00:02,500 - INFO - Processados 6200000 de 22293499 registros
+2025-06-16 17:00:03,331 - INFO - Processados 6300000 de 22293499 registros
+2025-06-16 17:00:04,214 - INFO - Processados 6400000 de 22293499 registros
+2025-06-16 17:00:05,050 - INFO - Processados 6500000 de 22293499 registros
+2025-06-16 17:00:05,881 - INFO - Processados 6600000 de 22293499 registros
+2025-06-16 17:00:06,833 - INFO - Processados 6700000 de 22293499 registros
+2025-06-16 17:00:07,700 - INFO - Processados 6800000 de 22293499 registros
+2025-06-16 17:00:08,628 - INFO - Processados 6900000 de 22293499 registros
+2025-06-16 17:00:09,447 - INFO - Processados 7000000 de 22293499 registros
+2025-06-16 17:00:10,376 - INFO - Processados 7100000 de 22293499 registros
+2025-06-16 17:00:11,265 - INFO - Processados 7200000 de 22293499 registros
+2025-06-16 17:00:12,149 - INFO - Processados 7300000 de 22293499 registros
+2025-06-16 17:00:13,083 - INFO - Processados 7400000 de 22293499 registros
+2025-06-16 17:00:13,998 - INFO - Processados 7500000 de 22293499 registros
+2025-06-16 17:00:14,865 - INFO - Processados 7600000 de 22293499 registros
+2025-06-16 17:00:15,649 - INFO - Processados 7700000 de 22293499 registros
+2025-06-16 17:00:16,479 - INFO - Processados 7800000 de 22293499 registros
+2025-06-16 17:00:17,497 - INFO - Processados 7900000 de 22293499 registros
+2025-06-16 17:00:18,366 - INFO - Processados 8000000 de 22293499 registros
+2025-06-16 17:00:19,262 - INFO - Processados 8100000 de 22293499 registros
+2025-06-16 17:00:20,101 - INFO - Processados 8200000 de 22293499 registros
+2025-06-16 17:00:20,949 - INFO - Processados 8300000 de 22293499 registros
+2025-06-16 17:00:22,013 - INFO - Processados 8400000 de 22293499 registros
+2025-06-16 17:00:23,046 - INFO - Processados 8500000 de 22293499 registros
+2025-06-16 17:00:24,016 - INFO - Processados 8600000 de 22293499 registros
+2025-06-16 17:00:24,879 - INFO - Processados 8700000 de 22293499 registros
+2025-06-16 17:00:26,248 - INFO - Processados 8800000 de 22293499 registros
+2025-06-16 17:00:27,284 - INFO - Processados 8900000 de 22293499 registros
+2025-06-16 17:00:28,211 - INFO - Processados 9000000 de 22293499 registros
+2025-06-16 17:00:29,181 - INFO - Processados 9100000 de 22293499 registros
+2025-06-16 17:00:30,113 - INFO - Processados 9200000 de 22293499 registros
+2025-06-16 17:00:31,132 - INFO - Processados 9300000 de 22293499 registros
+2025-06-16 17:00:32,130 - INFO - Processados 9400000 de 22293499 registros
+2025-06-16 17:00:33,064 - INFO - Processados 9500000 de 22293499 registros
+2025-06-16 17:00:34,213 - INFO - Processados 9600000 de 22293499 registros
+2025-06-16 17:00:35,212 - INFO - Processados 9700000 de 22293499 registros
+2025-06-16 17:00:36,148 - INFO - Processados 9800000 de 22293499 registros
+2025-06-16 17:00:37,150 - INFO - Processados 9900000 de 22293499 registros
+2025-06-16 17:00:38,264 - INFO - Processados 10000000 de 22293499 registros
+2025-06-16 17:00:39,637 - INFO - Processados 10100000 de 22293499 registros
+2025-06-16 17:00:41,263 - INFO - Processados 10200000 de 22293499 registros
+2025-06-16 17:00:43,011 - INFO - Processados 10300000 de 22293499 registros
+2025-06-16 17:00:43,832 - INFO - Processados 10400000 de 22293499 registros
+2025-06-16 17:00:44,881 - INFO - Processados 10500000 de 22293499 registros
+2025-06-16 17:00:46,348 - INFO - Processados 10600000 de 22293499 registros
+2025-06-16 17:00:47,895 - INFO - Processados 10700000 de 22293499 registros
+2025-06-16 17:00:48,743 - INFO - Processados 10800000 de 22293499 registros
+2025-06-16 17:00:49,693 - INFO - Processados 10900000 de 22293499 registros
+2025-06-16 17:00:50,733 - INFO - Processados 11000000 de 22293499 registros
+2025-06-16 17:00:51,628 - INFO - Processados 11100000 de 22293499 registros
+2025-06-16 17:00:52,566 - INFO - Processados 11200000 de 22293499 registros
+2025-06-16 17:00:53,414 - INFO - Processados 11300000 de 22293499 registros
+2025-06-16 17:00:54,581 - INFO - Processados 11400000 de 22293499 registros
+2025-06-16 17:00:55,515 - INFO - Processados 11500000 de 22293499 registros
+2025-06-16 17:00:56,500 - INFO - Processados 11600000 de 22293499 registros
+2025-06-16 17:00:57,398 - INFO - Processados 11700000 de 22293499 registros
+2025-06-16 17:00:58,366 - INFO - Processados 11800000 de 22293499 registros
+2025-06-16 17:00:59,166 - INFO - Processados 11900000 de 22293499 registros
+2025-06-16 17:01:00,016 - INFO - Processados 12000000 de 22293499 registros
+2025-06-16 17:01:00,998 - INFO - Processados 12100000 de 22293499 registros
+2025-06-16 17:01:01,833 - INFO - Processados 12200000 de 22293499 registros
+2025-06-16 17:01:02,681 - INFO - Processados 12300000 de 22293499 registros
+2025-06-16 17:01:03,478 - INFO - Processados 12400000 de 22293499 registros
+2025-06-16 17:01:04,263 - INFO - Processados 12500000 de 22293499 registros
+2025-06-16 17:01:05,130 - INFO - Processados 12600000 de 22293499 registros
+2025-06-16 17:01:06,134 - INFO - Processados 12700000 de 22293499 registros
+2025-06-16 17:01:07,583 - INFO - Processados 12800000 de 22293499 registros
+2025-06-16 17:01:09,053 - INFO - Processados 12900000 de 22293499 registros
+2025-06-16 17:01:10,398 - INFO - Processados 13000000 de 22293499 registros
+2025-06-16 17:01:11,750 - INFO - Processados 13100000 de 22293499 registros
+2025-06-16 17:01:12,984 - INFO - Processados 13200000 de 22293499 registros
+2025-06-16 17:01:14,350 - INFO - Processados 13300000 de 22293499 registros
+2025-06-16 17:01:15,180 - INFO - Processados 13400000 de 22293499 registros
+2025-06-16 17:01:16,131 - INFO - Processados 13500000 de 22293499 registros
+2025-06-16 17:01:17,377 - INFO - Processados 13600000 de 22293499 registros
+2025-06-16 17:01:18,453 - INFO - Processados 13700000 de 22293499 registros
+2025-06-16 17:01:19,608 - INFO - Processados 13800000 de 22293499 registros
+2025-06-16 17:01:20,693 - INFO - Processados 13900000 de 22293499 registros
+2025-06-16 17:01:21,595 - INFO - Processados 14000000 de 22293499 registros
+2025-06-16 17:01:22,466 - INFO - Processados 14100000 de 22293499 registros
+2025-06-16 17:01:23,376 - INFO - Processados 14200000 de 22293499 registros
+2025-06-16 17:01:24,331 - INFO - Processados 14300000 de 22293499 registros
+2025-06-16 17:01:25,293 - INFO - Processados 14400000 de 22293499 registros
+2025-06-16 17:01:26,260 - INFO - Processados 14500000 de 22293499 registros
+2025-06-16 17:01:27,310 - INFO - Processados 14600000 de 22293499 registros
+2025-06-16 17:01:28,210 - INFO - Processados 14700000 de 22293499 registros
+2025-06-16 17:01:29,310 - INFO - Processados 14800000 de 22293499 registros
+2025-06-16 17:01:30,994 - INFO - Processados 14900000 de 22293499 registros
+2025-06-16 17:01:32,493 - INFO - Processados 15000000 de 22293499 registros
+2025-06-16 17:01:34,160 - INFO - Processados 15100000 de 22293499 registros
+2025-06-16 17:01:35,777 - INFO - Processados 15200000 de 22293499 registros
+2025-06-16 17:01:37,451 - INFO - Processados 15300000 de 22293499 registros
+2025-06-16 17:01:38,410 - INFO - Processados 15400000 de 22293499 registros
+2025-06-16 17:01:39,843 - INFO - Processados 15500000 de 22293499 registros
+2025-06-16 17:01:41,637 - INFO - Processados 15600000 de 22293499 registros
+2025-06-16 17:01:42,626 - INFO - Processados 15700000 de 22293499 registros
+2025-06-16 17:01:43,577 - INFO - Processados 15800000 de 22293499 registros
+2025-06-16 17:01:44,699 - INFO - Processados 15900000 de 22293499 registros
+2025-06-16 17:01:45,626 - INFO - Processados 16000000 de 22293499 registros
+2025-06-16 17:01:46,627 - INFO - Processados 16100000 de 22293499 registros
+2025-06-16 17:01:47,499 - INFO - Processados 16200000 de 22293499 registros
+2025-06-16 17:01:48,663 - INFO - Processados 16300000 de 22293499 registros
+2025-06-16 17:01:49,776 - INFO - Processados 16400000 de 22293499 registros
+2025-06-16 17:01:51,000 - INFO - Processados 16500000 de 22293499 registros
+2025-06-16 17:01:51,977 - INFO - Processados 16600000 de 22293499 registros
+2025-06-16 17:01:52,975 - INFO - Processados 16700000 de 22293499 registros
+2025-06-16 17:01:54,076 - INFO - Processados 16800000 de 22293499 registros
+2025-06-16 17:01:54,979 - INFO - Processados 16900000 de 22293499 registros
+2025-06-16 17:01:55,899 - INFO - Processados 17000000 de 22293499 registros
+2025-06-16 17:01:56,826 - INFO - Processados 17100000 de 22293499 registros
+2025-06-16 17:01:57,812 - INFO - Processados 17200000 de 22293499 registros
+2025-06-16 17:01:58,762 - INFO - Processados 17300000 de 22293499 registros
+2025-06-16 17:01:59,710 - INFO - Processados 17400000 de 22293499 registros
+2025-06-16 17:02:00,760 - INFO - Processados 17500000 de 22293499 registros
+2025-06-16 17:02:01,826 - INFO - Processados 17600000 de 22293499 registros
+2025-06-16 17:02:02,693 - INFO - Processados 17700000 de 22293499 registros
+2025-06-16 17:02:03,599 - INFO - Processados 17800000 de 22293499 registros
+2025-06-16 17:02:04,543 - INFO - Processados 17900000 de 22293499 registros
+2025-06-16 17:02:05,527 - INFO - Processados 18000000 de 22293499 registros
+2025-06-16 17:02:06,626 - INFO - Processados 18100000 de 22293499 registros
+2025-06-16 17:02:07,565 - INFO - Processados 18200000 de 22293499 registros
+2025-06-16 17:02:08,845 - INFO - Processados 18300000 de 22293499 registros
+2025-06-16 17:02:09,969 - INFO - Processados 18400000 de 22293499 registros
+2025-06-16 17:02:11,117 - INFO - Processados 18500000 de 22293499 registros
+2025-06-16 17:02:12,143 - INFO - Processados 18600000 de 22293499 registros
+2025-06-16 17:02:13,233 - INFO - Processados 18700000 de 22293499 registros
+2025-06-16 17:02:14,210 - INFO - Processados 18800000 de 22293499 registros
+2025-06-16 17:02:15,210 - INFO - Processados 18900000 de 22293499 registros
+2025-06-16 17:02:16,296 - INFO - Processados 19000000 de 22293499 registros
+2025-06-16 17:02:17,293 - INFO - Processados 19100000 de 22293499 registros
+2025-06-16 17:02:18,243 - INFO - Processados 19200000 de 22293499 registros
+2025-06-16 17:02:19,193 - INFO - Processados 19300000 de 22293499 registros
+2025-06-16 17:02:20,148 - INFO - Processados 19400000 de 22293499 registros
+2025-06-16 17:02:21,060 - INFO - Processados 19500000 de 22293499 registros
+2025-06-16 17:02:22,161 - INFO - Processados 19600000 de 22293499 registros
+2025-06-16 17:02:23,206 - INFO - Processados 19700000 de 22293499 registros
+2025-06-16 17:02:24,193 - INFO - Processados 19800000 de 22293499 registros
+2025-06-16 17:02:25,133 - INFO - Processados 19900000 de 22293499 registros
+2025-06-16 17:02:26,060 - INFO - Processados 20000000 de 22293499 registros
+2025-06-16 17:02:26,976 - INFO - Processados 20100000 de 22293499 registros
+2025-06-16 17:02:27,984 - INFO - Processados 20200000 de 22293499 registros
+2025-06-16 17:02:28,899 - INFO - Processados 20300000 de 22293499 registros
+2025-06-16 17:02:29,910 - INFO - Processados 20400000 de 22293499 registros
+2025-06-16 17:02:30,820 - INFO - Processados 20500000 de 22293499 registros
+2025-06-16 17:02:31,777 - INFO - Processados 20600000 de 22293499 registros
+2025-06-16 17:02:32,726 - INFO - Processados 20700000 de 22293499 registros
+2025-06-16 17:02:33,760 - INFO - Processados 20800000 de 22293499 registros
+2025-06-16 17:02:34,710 - INFO - Processados 20900000 de 22293499 registros
+2025-06-16 17:02:35,643 - INFO - Processados 21000000 de 22293499 registros
+2025-06-16 17:02:36,637 - INFO - Processados 21100000 de 22293499 registros
+2025-06-16 17:02:37,538 - INFO - Processados 21200000 de 22293499 registros
+2025-06-16 17:02:38,476 - INFO - Processados 21300000 de 22293499 registros
+2025-06-16 17:02:39,443 - INFO - Processados 21400000 de 22293499 registros
+2025-06-16 17:02:40,395 - INFO - Processados 21500000 de 22293499 registros
+2025-06-16 17:02:41,343 - INFO - Processados 21600000 de 22293499 registros
+2025-06-16 17:02:43,093 - INFO - Processados 21700000 de 22293499 registros
+2025-06-16 17:02:44,946 - INFO - Processados 21800000 de 22293499 registros
+2025-06-16 17:02:46,427 - INFO - Processados 21900000 de 22293499 registros
+2025-06-16 17:02:48,076 - INFO - Processados 22000000 de 22293499 registros
+2025-06-16 17:02:49,088 - INFO - Processados 22100000 de 22293499 registros
+2025-06-16 17:02:50,010 - INFO - Processados 22200000 de 22293499 registros
+2025-06-16 17:02:50,850 - INFO - Processados 22293499 de 22293499 registros
+2025-06-16 17:02:50,850 - INFO - Arquivo Input/dados_parquet\Empresas0_EMPRECSV.parquet processado com sucesso
+2025-06-16 17:02:50,862 - INFO - Processando arquivo Input/dados_parquet\Empresas1_EMPRECSV.parquet para tabela Empresas
+2025-06-16 17:02:51,411 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 17:02:52,460 - INFO - Processados 100000 de 4494859 registros
+2025-06-16 17:02:53,376 - INFO - Processados 200000 de 4494859 registros
+2025-06-16 17:02:54,276 - INFO - Processados 300000 de 4494859 registros
+2025-06-16 17:02:55,642 - INFO - Processados 400000 de 4494859 registros
+2025-06-16 17:02:57,253 - INFO - Processados 500000 de 4494859 registros
+2025-06-16 17:02:58,551 - INFO - Processados 600000 de 4494859 registros
+2025-06-16 17:02:59,478 - INFO - Processados 700000 de 4494859 registros
+2025-06-16 17:03:00,461 - INFO - Processados 800000 de 4494859 registros
+2025-06-16 17:03:01,510 - INFO - Processados 900000 de 4494859 registros
+2025-06-16 17:03:02,410 - INFO - Processados 1000000 de 4494859 registros
+2025-06-16 17:03:03,376 - INFO - Processados 1100000 de 4494859 registros
+2025-06-16 17:03:04,327 - INFO - Processados 1200000 de 4494859 registros
+2025-06-16 17:03:05,298 - INFO - Processados 1300000 de 4494859 registros
+2025-06-16 17:03:06,166 - INFO - Processados 1400000 de 4494859 registros
+2025-06-16 17:03:07,060 - INFO - Processados 1500000 de 4494859 registros
+2025-06-16 17:03:07,943 - INFO - Processados 1600000 de 4494859 registros
+2025-06-16 17:03:08,798 - INFO - Processados 1700000 de 4494859 registros
+2025-06-16 17:03:09,725 - INFO - Processados 1800000 de 4494859 registros
+2025-06-16 17:03:10,726 - INFO - Processados 1900000 de 4494859 registros
+2025-06-16 17:03:11,743 - INFO - Processados 2000000 de 4494859 registros
+2025-06-16 17:03:12,693 - INFO - Processados 2100000 de 4494859 registros
+2025-06-16 17:03:13,626 - INFO - Processados 2200000 de 4494859 registros
+2025-06-16 17:03:14,593 - INFO - Processados 2300000 de 4494859 registros
+2025-06-16 17:03:15,627 - INFO - Processados 2400000 de 4494859 registros
+2025-06-16 17:03:16,445 - INFO - Processados 2500000 de 4494859 registros
+2025-06-16 17:03:17,343 - INFO - Processados 2600000 de 4494859 registros
+2025-06-16 17:03:18,309 - INFO - Processados 2700000 de 4494859 registros
+2025-06-16 17:03:19,343 - INFO - Processados 2800000 de 4494859 registros
+2025-06-16 17:03:20,226 - INFO - Processados 2900000 de 4494859 registros
+2025-06-16 17:03:21,181 - INFO - Processados 3000000 de 4494859 registros
+2025-06-16 17:03:22,220 - INFO - Processados 3100000 de 4494859 registros
+2025-06-16 17:03:23,158 - INFO - Processados 3200000 de 4494859 registros
+2025-06-16 17:03:23,946 - INFO - Processados 3300000 de 4494859 registros
+2025-06-16 17:03:24,748 - INFO - Processados 3400000 de 4494859 registros
+2025-06-16 17:03:25,639 - INFO - Processados 3500000 de 4494859 registros
+2025-06-16 17:03:26,425 - INFO - Processados 3600000 de 4494859 registros
+2025-06-16 17:03:27,195 - INFO - Processados 3700000 de 4494859 registros
+2025-06-16 17:03:27,959 - INFO - Processados 3800000 de 4494859 registros
+2025-06-16 17:03:28,747 - INFO - Processados 3900000 de 4494859 registros
+2025-06-16 17:03:29,597 - INFO - Processados 4000000 de 4494859 registros
+2025-06-16 17:03:30,326 - INFO - Processados 4100000 de 4494859 registros
+2025-06-16 17:03:31,109 - INFO - Processados 4200000 de 4494859 registros
+2025-06-16 17:03:31,853 - INFO - Processados 4300000 de 4494859 registros
+2025-06-16 17:03:32,799 - INFO - Processados 4400000 de 4494859 registros
+2025-06-16 17:03:33,592 - INFO - Processados 4494859 de 4494859 registros
+2025-06-16 17:03:33,592 - INFO - Arquivo Input/dados_parquet\Empresas1_EMPRECSV.parquet processado com sucesso
+2025-06-16 17:03:33,607 - INFO - Processando arquivo Input/dados_parquet\Empresas2_EMPRECSV.parquet para tabela Empresas
+2025-06-16 17:03:34,089 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 17:03:34,985 - INFO - Processados 100000 de 4494859 registros
+2025-06-16 17:03:36,238 - INFO - Processados 200000 de 4494859 registros
+2025-06-16 17:03:37,211 - INFO - Processados 300000 de 4494859 registros
+2025-06-16 17:03:38,264 - INFO - Processados 400000 de 4494859 registros
+2025-06-16 17:03:39,659 - INFO - Processados 500000 de 4494859 registros
+2025-06-16 17:03:40,661 - INFO - Processados 600000 de 4494859 registros
+2025-06-16 17:03:41,647 - INFO - Processados 700000 de 4494859 registros
+2025-06-16 17:03:42,364 - INFO - Processados 800000 de 4494859 registros
+2025-06-16 17:03:43,111 - INFO - Processados 900000 de 4494859 registros
+2025-06-16 17:03:43,885 - INFO - Processados 1000000 de 4494859 registros
+2025-06-16 17:03:44,778 - INFO - Processados 1100000 de 4494859 registros
+2025-06-16 17:03:45,557 - INFO - Processados 1200000 de 4494859 registros
+2025-06-16 17:03:46,411 - INFO - Processados 1300000 de 4494859 registros
+2025-06-16 17:03:47,246 - INFO - Processados 1400000 de 4494859 registros
+2025-06-16 17:03:48,360 - INFO - Processados 1500000 de 4494859 registros
+2025-06-16 17:03:49,326 - INFO - Processados 1600000 de 4494859 registros
+2025-06-16 17:03:50,143 - INFO - Processados 1700000 de 4494859 registros
+2025-06-16 17:03:50,962 - INFO - Processados 1800000 de 4494859 registros
+2025-06-16 17:03:51,775 - INFO - Processados 1900000 de 4494859 registros
+2025-06-16 17:03:52,534 - INFO - Processados 2000000 de 4494859 registros
+2025-06-16 17:03:53,355 - INFO - Processados 2100000 de 4494859 registros
+2025-06-16 17:03:54,144 - INFO - Processados 2200000 de 4494859 registros
+2025-06-16 17:03:54,948 - INFO - Processados 2300000 de 4494859 registros
+2025-06-16 17:03:55,742 - INFO - Processados 2400000 de 4494859 registros
+2025-06-16 17:03:56,611 - INFO - Processados 2500000 de 4494859 registros
+2025-06-16 17:03:57,460 - INFO - Processados 2600000 de 4494859 registros
+2025-06-16 17:03:58,256 - INFO - Processados 2700000 de 4494859 registros
+2025-06-16 17:03:59,048 - INFO - Processados 2800000 de 4494859 registros
+2025-06-16 17:03:59,900 - INFO - Processados 2900000 de 4494859 registros
+2025-06-16 17:04:01,081 - INFO - Processados 3000000 de 4494859 registros
+2025-06-16 17:04:02,132 - INFO - Processados 3100000 de 4494859 registros
+2025-06-16 17:04:03,130 - INFO - Processados 3200000 de 4494859 registros
+2025-06-16 17:04:04,018 - INFO - Processados 3300000 de 4494859 registros
+2025-06-16 17:04:05,097 - INFO - Processados 3400000 de 4494859 registros
+2025-06-16 17:04:06,179 - INFO - Processados 3500000 de 4494859 registros
+2025-06-16 17:04:07,177 - INFO - Processados 3600000 de 4494859 registros
+2025-06-16 17:04:08,127 - INFO - Processados 3700000 de 4494859 registros
+2025-06-16 17:04:09,010 - INFO - Processados 3800000 de 4494859 registros
+2025-06-16 17:04:09,927 - INFO - Processados 3900000 de 4494859 registros
+2025-06-16 17:04:10,810 - INFO - Processados 4000000 de 4494859 registros
+2025-06-16 17:04:11,677 - INFO - Processados 4100000 de 4494859 registros
+2025-06-16 17:04:12,593 - INFO - Processados 4200000 de 4494859 registros
+2025-06-16 17:04:13,527 - INFO - Processados 4300000 de 4494859 registros
+2025-06-16 17:04:14,434 - INFO - Processados 4400000 de 4494859 registros
+2025-06-16 17:04:15,316 - INFO - Processados 4494859 de 4494859 registros
+2025-06-16 17:04:15,316 - INFO - Arquivo Input/dados_parquet\Empresas2_EMPRECSV.parquet processado com sucesso
+2025-06-16 17:04:15,316 - INFO - Processando arquivo Input/dados_parquet\Empresas3_EMPRECSV.parquet para tabela Empresas
+2025-06-16 17:04:15,861 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 17:04:16,843 - INFO - Processados 100000 de 4494859 registros
+2025-06-16 17:04:17,860 - INFO - Processados 200000 de 4494859 registros
+2025-06-16 17:04:18,816 - INFO - Processados 300000 de 4494859 registros
+2025-06-16 17:04:19,710 - INFO - Processados 400000 de 4494859 registros
+2025-06-16 17:04:20,677 - INFO - Processados 500000 de 4494859 registros
+2025-06-16 17:04:21,660 - INFO - Processados 600000 de 4494859 registros
+2025-06-16 17:04:22,710 - INFO - Processados 700000 de 4494859 registros
+2025-06-16 17:04:23,910 - INFO - Processados 800000 de 4494859 registros
+2025-06-16 17:04:25,411 - INFO - Processados 900000 de 4494859 registros
+2025-06-16 17:04:26,960 - INFO - Processados 1000000 de 4494859 registros
+2025-06-16 17:04:28,351 - INFO - Processados 1100000 de 4494859 registros
+2025-06-16 17:04:29,760 - INFO - Processados 1200000 de 4494859 registros
+2025-06-16 17:04:30,863 - INFO - Processados 1300000 de 4494859 registros
+2025-06-16 17:04:31,833 - INFO - Processados 1400000 de 4494859 registros
+2025-06-16 17:04:32,827 - INFO - Processados 1500000 de 4494859 registros
+2025-06-16 17:04:33,877 - INFO - Processados 1600000 de 4494859 registros
+2025-06-16 17:04:34,383 - ERROR - Erro ao processar arquivo Input/dados_parquet\Empresas3_EMPRECSV.parquet: UNIQUE constraint failed: Empresas.cnpj_basico
+2025-06-16 17:04:34,383 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.IntegrityError: UNIQUE constraint failed: Empresas.cnpj_basico
+
+2025-06-16 17:04:34,404 - ERROR - Falha ao processar arquivo Input/dados_parquet\Empresas3_EMPRECSV.parquet
+2025-06-16 17:04:34,404 - INFO - Processando arquivo Input/dados_parquet\Empresas4_EMPRECSV.parquet para tabela Empresas
+2025-06-16 17:04:35,061 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 17:04:36,031 - INFO - Processados 100000 de 4494859 registros
+2025-06-16 17:04:36,960 - INFO - Processados 200000 de 4494859 registros
+2025-06-16 17:04:37,943 - INFO - Processados 300000 de 4494859 registros
+2025-06-16 17:04:38,960 - INFO - Processados 400000 de 4494859 registros
+2025-06-16 17:04:39,944 - INFO - Processados 500000 de 4494859 registros
+2025-06-16 17:04:40,877 - INFO - Processados 600000 de 4494859 registros
+2025-06-16 17:04:41,863 - INFO - Processados 700000 de 4494859 registros
+2025-06-16 17:04:42,810 - INFO - Processados 800000 de 4494859 registros
+2025-06-16 17:04:43,710 - INFO - Processados 900000 de 4494859 registros
+2025-06-16 17:04:44,643 - INFO - Processados 1000000 de 4494859 registros
+2025-06-16 17:04:45,609 - INFO - Processados 1100000 de 4494859 registros
+2025-06-16 17:04:46,473 - INFO - Processados 1200000 de 4494859 registros
+2025-06-16 17:04:47,393 - INFO - Processados 1300000 de 4494859 registros
+2025-06-16 17:04:48,327 - INFO - Processados 1400000 de 4494859 registros
+2025-06-16 17:04:49,410 - INFO - Processados 1500000 de 4494859 registros
+2025-06-16 17:04:50,344 - INFO - Processados 1600000 de 4494859 registros
+2025-06-16 17:04:51,269 - INFO - Processados 1700000 de 4494859 registros
+2025-06-16 17:04:52,160 - INFO - Processados 1800000 de 4494859 registros
+2025-06-16 17:04:53,110 - INFO - Processados 1900000 de 4494859 registros
+2025-06-16 17:04:54,027 - INFO - Processados 2000000 de 4494859 registros
+2025-06-16 17:04:54,960 - INFO - Processados 2100000 de 4494859 registros
+2025-06-16 17:04:55,927 - INFO - Processados 2200000 de 4494859 registros
+2025-06-16 17:04:56,827 - INFO - Processados 2300000 de 4494859 registros
+2025-06-16 17:04:57,677 - INFO - Processados 2400000 de 4494859 registros
+2025-06-16 17:04:58,594 - INFO - Processados 2500000 de 4494859 registros
+2025-06-16 17:04:59,616 - INFO - Processados 2600000 de 4494859 registros
+2025-06-16 17:05:00,931 - INFO - Processados 2700000 de 4494859 registros
+2025-06-16 17:05:02,063 - INFO - Processados 2800000 de 4494859 registros
+2025-06-16 17:05:03,048 - INFO - Processados 2900000 de 4494859 registros
+2025-06-16 17:05:03,916 - INFO - Processados 3000000 de 4494859 registros
+2025-06-16 17:05:04,831 - INFO - Processados 3100000 de 4494859 registros
+2025-06-16 17:05:05,746 - INFO - Processados 3200000 de 4494859 registros
+2025-06-16 17:05:06,649 - INFO - Processados 3300000 de 4494859 registros
+2025-06-16 17:05:07,510 - INFO - Processados 3400000 de 4494859 registros
+2025-06-16 17:05:08,448 - INFO - Processados 3500000 de 4494859 registros
+2025-06-16 17:05:09,415 - INFO - Processados 3600000 de 4494859 registros
+2025-06-16 17:05:10,390 - INFO - Processados 3700000 de 4494859 registros
+2025-06-16 17:05:11,299 - INFO - Processados 3800000 de 4494859 registros
+2025-06-16 17:05:12,132 - INFO - Processados 3900000 de 4494859 registros
+2025-06-16 17:05:13,028 - INFO - Processados 4000000 de 4494859 registros
+2025-06-16 17:05:14,031 - INFO - Processados 4100000 de 4494859 registros
+2025-06-16 17:05:15,082 - INFO - Processados 4200000 de 4494859 registros
+2025-06-16 17:05:16,481 - INFO - Processados 4300000 de 4494859 registros
+2025-06-16 17:05:17,882 - INFO - Processados 4400000 de 4494859 registros
+2025-06-16 17:05:19,098 - INFO - Processados 4494859 de 4494859 registros
+2025-06-16 17:05:19,098 - INFO - Arquivo Input/dados_parquet\Empresas4_EMPRECSV.parquet processado com sucesso
+2025-06-16 17:05:19,115 - INFO - Processando arquivo Input/dados_parquet\Empresas5_EMPRECSV.parquet para tabela Empresas
+2025-06-16 17:05:19,702 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 17:05:21,411 - INFO - Processados 100000 de 4494859 registros
+2025-06-16 17:05:22,699 - INFO - Processados 200000 de 4494859 registros
+2025-06-16 17:05:23,600 - INFO - Processados 300000 de 4494859 registros
+2025-06-16 17:05:24,500 - INFO - Processados 400000 de 4494859 registros
+2025-06-16 17:05:25,414 - INFO - Processados 500000 de 4494859 registros
+2025-06-16 17:05:26,340 - INFO - Processados 600000 de 4494859 registros
+2025-06-16 17:05:27,245 - INFO - Processados 700000 de 4494859 registros
+2025-06-16 17:05:28,115 - INFO - Processados 800000 de 4494859 registros
+2025-06-16 17:05:29,067 - INFO - Processados 900000 de 4494859 registros
+2025-06-16 17:05:30,034 - INFO - Processados 1000000 de 4494859 registros
+2025-06-16 17:05:30,997 - INFO - Processados 1100000 de 4494859 registros
+2025-06-16 17:05:31,914 - INFO - Processados 1200000 de 4494859 registros
+2025-06-16 17:05:32,765 - INFO - Processados 1300000 de 4494859 registros
+2025-06-16 17:05:33,643 - INFO - Processados 1400000 de 4494859 registros
+2025-06-16 17:05:34,581 - INFO - Processados 1500000 de 4494859 registros
+2025-06-16 17:05:35,482 - INFO - Processados 1600000 de 4494859 registros
+2025-06-16 17:05:36,379 - INFO - Processados 1700000 de 4494859 registros
+2025-06-16 17:05:37,283 - INFO - Processados 1800000 de 4494859 registros
+2025-06-16 17:05:38,296 - INFO - Processados 1900000 de 4494859 registros
+2025-06-16 17:05:39,314 - INFO - Processados 2000000 de 4494859 registros
+2025-06-16 17:05:40,315 - INFO - Processados 2100000 de 4494859 registros
+2025-06-16 17:05:41,415 - INFO - Processados 2200000 de 4494859 registros
+2025-06-16 17:05:42,349 - INFO - Processados 2300000 de 4494859 registros
+2025-06-16 17:05:43,274 - INFO - Processados 2400000 de 4494859 registros
+2025-06-16 17:05:44,211 - INFO - Processados 2500000 de 4494859 registros
+2025-06-16 17:05:45,135 - INFO - Processados 2600000 de 4494859 registros
+2025-06-16 17:05:46,049 - INFO - Processados 2700000 de 4494859 registros
+2025-06-16 17:05:46,932 - INFO - Processados 2800000 de 4494859 registros
+2025-06-16 17:05:47,912 - INFO - Processados 2900000 de 4494859 registros
+2025-06-16 17:05:48,798 - INFO - Processados 3000000 de 4494859 registros
+2025-06-16 17:05:49,798 - INFO - Processados 3100000 de 4494859 registros
+2025-06-16 17:05:50,690 - INFO - Processados 3200000 de 4494859 registros
+2025-06-16 17:05:51,676 - INFO - Processados 3300000 de 4494859 registros
+2025-06-16 17:05:52,710 - INFO - Processados 3400000 de 4494859 registros
+2025-06-16 17:05:53,649 - INFO - Processados 3500000 de 4494859 registros
+2025-06-16 17:05:54,563 - INFO - Processados 3600000 de 4494859 registros
+2025-06-16 17:05:55,434 - INFO - Processados 3700000 de 4494859 registros
+2025-06-16 17:05:56,381 - INFO - Processados 3800000 de 4494859 registros
+2025-06-16 17:05:57,282 - INFO - Processados 3900000 de 4494859 registros
+2025-06-16 17:05:58,179 - INFO - Processados 4000000 de 4494859 registros
+2025-06-16 17:05:59,033 - INFO - Processados 4100000 de 4494859 registros
+2025-06-16 17:05:59,966 - INFO - Processados 4200000 de 4494859 registros
+2025-06-16 17:06:01,282 - INFO - Processados 4300000 de 4494859 registros
+2025-06-16 17:06:02,219 - INFO - Processados 4400000 de 4494859 registros
+2025-06-16 17:06:03,205 - INFO - Processados 4494859 de 4494859 registros
+2025-06-16 17:06:03,205 - INFO - Arquivo Input/dados_parquet\Empresas5_EMPRECSV.parquet processado com sucesso
+2025-06-16 17:06:03,215 - INFO - Processando arquivo Input/dados_parquet\Empresas6_EMPRECSV.parquet para tabela Empresas
+2025-06-16 17:06:03,636 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 17:06:04,630 - INFO - Processados 100000 de 4494859 registros
+2025-06-16 17:06:05,484 - INFO - Processados 200000 de 4494859 registros
+2025-06-16 17:06:07,517 - INFO - Processados 300000 de 4494859 registros
+2025-06-16 17:06:09,084 - INFO - Processados 400000 de 4494859 registros
+2025-06-16 17:06:10,616 - INFO - Processados 500000 de 4494859 registros
+2025-06-16 17:06:12,381 - INFO - Processados 600000 de 4494859 registros
+2025-06-16 17:06:13,445 - INFO - Processados 700000 de 4494859 registros
+2025-06-16 17:06:14,309 - INFO - Processados 800000 de 4494859 registros
+2025-06-16 17:06:15,126 - INFO - Processados 900000 de 4494859 registros
+2025-06-16 17:06:15,943 - INFO - Processados 1000000 de 4494859 registros
+2025-06-16 17:06:16,866 - INFO - Processados 1100000 de 4494859 registros
+2025-06-16 17:06:18,236 - INFO - Processados 1200000 de 4494859 registros
+2025-06-16 17:06:19,185 - INFO - Processados 1300000 de 4494859 registros
+2025-06-16 17:06:20,090 - INFO - Processados 1400000 de 4494859 registros
+2025-06-16 17:06:20,860 - INFO - Processados 1500000 de 4494859 registros
+2025-06-16 17:06:21,637 - INFO - Processados 1600000 de 4494859 registros
+2025-06-16 17:06:22,438 - INFO - Processados 1700000 de 4494859 registros
+2025-06-16 17:06:23,250 - INFO - Processados 1800000 de 4494859 registros
+2025-06-16 17:06:24,108 - INFO - Processados 1900000 de 4494859 registros
+2025-06-16 17:06:24,916 - INFO - Processados 2000000 de 4494859 registros
+2025-06-16 17:06:25,862 - INFO - Processados 2100000 de 4494859 registros
+2025-06-16 17:06:26,637 - INFO - Processados 2200000 de 4494859 registros
+2025-06-16 17:06:27,388 - INFO - Processados 2300000 de 4494859 registros
+2025-06-16 17:06:28,149 - INFO - Processados 2400000 de 4494859 registros
+2025-06-16 17:06:28,928 - INFO - Processados 2500000 de 4494859 registros
+2025-06-16 17:06:29,742 - INFO - Processados 2600000 de 4494859 registros
+2025-06-16 17:06:30,520 - INFO - Processados 2700000 de 4494859 registros
+2025-06-16 17:06:31,296 - INFO - Processados 2800000 de 4494859 registros
+2025-06-16 17:06:32,133 - INFO - Processados 2900000 de 4494859 registros
+2025-06-16 17:06:32,911 - INFO - Processados 3000000 de 4494859 registros
+2025-06-16 17:06:33,800 - INFO - Processados 3100000 de 4494859 registros
+2025-06-16 17:06:34,651 - INFO - Processados 3200000 de 4494859 registros
+2025-06-16 17:06:35,377 - INFO - Processados 3300000 de 4494859 registros
+2025-06-16 17:06:36,108 - INFO - Processados 3400000 de 4494859 registros
+2025-06-16 17:06:36,877 - INFO - Processados 3500000 de 4494859 registros
+2025-06-16 17:06:37,652 - INFO - Processados 3600000 de 4494859 registros
+2025-06-16 17:06:38,438 - INFO - Processados 3700000 de 4494859 registros
+2025-06-16 17:06:39,198 - INFO - Processados 3800000 de 4494859 registros
+2025-06-16 17:06:39,957 - INFO - Processados 3900000 de 4494859 registros
+2025-06-16 17:06:40,737 - INFO - Processados 4000000 de 4494859 registros
+2025-06-16 17:06:41,476 - INFO - Processados 4100000 de 4494859 registros
+2025-06-16 17:06:42,277 - INFO - Processados 4200000 de 4494859 registros
+2025-06-16 17:06:43,071 - INFO - Processados 4300000 de 4494859 registros
+2025-06-16 17:06:43,870 - INFO - Processados 4400000 de 4494859 registros
+2025-06-16 17:06:44,717 - INFO - Processados 4494859 de 4494859 registros
+2025-06-16 17:06:44,717 - INFO - Arquivo Input/dados_parquet\Empresas6_EMPRECSV.parquet processado com sucesso
+2025-06-16 17:06:44,717 - INFO - Processando arquivo Input/dados_parquet\Empresas7_EMPRECSV.parquet para tabela Empresas
+2025-06-16 17:06:44,999 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 17:06:45,799 - INFO - Processados 100000 de 4494859 registros
+2025-06-16 17:06:46,525 - INFO - Processados 200000 de 4494859 registros
+2025-06-16 17:06:47,337 - INFO - Processados 300000 de 4494859 registros
+2025-06-16 17:06:48,089 - INFO - Processados 400000 de 4494859 registros
+2025-06-16 17:06:48,905 - INFO - Processados 500000 de 4494859 registros
+2025-06-16 17:06:49,701 - INFO - Processados 600000 de 4494859 registros
+2025-06-16 17:06:50,581 - INFO - Processados 700000 de 4494859 registros
+2025-06-16 17:06:51,358 - INFO - Processados 800000 de 4494859 registros
+2025-06-16 17:06:52,198 - INFO - Processados 900000 de 4494859 registros
+2025-06-16 17:06:53,059 - INFO - Processados 1000000 de 4494859 registros
+2025-06-16 17:06:53,838 - INFO - Processados 1100000 de 4494859 registros
+2025-06-16 17:06:54,642 - INFO - Processados 1200000 de 4494859 registros
+2025-06-16 17:06:55,436 - INFO - Processados 1300000 de 4494859 registros
+2025-06-16 17:06:56,204 - INFO - Processados 1400000 de 4494859 registros
+2025-06-16 17:06:57,006 - INFO - Processados 1500000 de 4494859 registros
+2025-06-16 17:06:57,802 - INFO - Processados 1600000 de 4494859 registros
+2025-06-16 17:06:58,616 - INFO - Processados 1700000 de 4494859 registros
+2025-06-16 17:06:59,488 - INFO - Processados 1800000 de 4494859 registros
+2025-06-16 17:07:00,351 - INFO - Processados 1900000 de 4494859 registros
+2025-06-16 17:07:01,306 - INFO - Processados 2000000 de 4494859 registros
+2025-06-16 17:07:02,201 - INFO - Processados 2100000 de 4494859 registros
+2025-06-16 17:07:02,991 - INFO - Processados 2200000 de 4494859 registros
+2025-06-16 17:07:03,844 - INFO - Processados 2300000 de 4494859 registros
+2025-06-16 17:07:04,696 - INFO - Processados 2400000 de 4494859 registros
+2025-06-16 17:07:05,651 - INFO - Processados 2500000 de 4494859 registros
+2025-06-16 17:07:07,847 - INFO - Processados 2600000 de 4494859 registros
+2025-06-16 17:07:09,069 - INFO - Processados 2700000 de 4494859 registros
+2025-06-16 17:07:10,922 - INFO - Processados 2800000 de 4494859 registros
+2025-06-16 17:07:13,319 - INFO - Processados 2900000 de 4494859 registros
+2025-06-16 17:07:15,403 - INFO - Processados 3000000 de 4494859 registros
+2025-06-16 17:07:16,596 - INFO - Processados 3100000 de 4494859 registros
+2025-06-16 17:07:17,862 - INFO - Processados 3200000 de 4494859 registros
+2025-06-16 17:07:21,014 - INFO - Processados 3300000 de 4494859 registros
+2025-06-16 17:07:26,178 - INFO - Processados 3400000 de 4494859 registros
+2025-06-16 17:07:29,221 - INFO - Processados 3500000 de 4494859 registros
+2025-06-16 17:07:32,640 - INFO - Processados 3600000 de 4494859 registros
+2025-06-16 17:07:36,382 - INFO - Processados 3700000 de 4494859 registros
+2025-06-16 17:07:40,972 - INFO - Processados 3800000 de 4494859 registros
+2025-06-16 17:07:45,295 - INFO - Processados 3900000 de 4494859 registros
+2025-06-16 17:07:49,160 - INFO - Processados 4000000 de 4494859 registros
+2025-06-16 17:07:51,285 - INFO - Processados 4100000 de 4494859 registros
+2025-06-16 17:07:54,352 - INFO - Processados 4200000 de 4494859 registros
+2025-06-16 17:07:57,946 - INFO - Processados 4300000 de 4494859 registros
+2025-06-16 17:08:00,283 - INFO - Processados 4400000 de 4494859 registros
+2025-06-16 17:08:01,168 - INFO - Processados 4494859 de 4494859 registros
+2025-06-16 17:08:01,168 - INFO - Arquivo Input/dados_parquet\Empresas7_EMPRECSV.parquet processado com sucesso
+2025-06-16 17:08:01,183 - INFO - Processando arquivo Input/dados_parquet\Empresas8_EMPRECSV.parquet para tabela Empresas
+2025-06-16 17:08:01,649 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 17:08:02,505 - INFO - Processados 100000 de 4494859 registros
+2025-06-16 17:08:03,282 - INFO - Processados 200000 de 4494859 registros
+2025-06-16 17:08:04,065 - INFO - Processados 300000 de 4494859 registros
+2025-06-16 17:08:04,906 - INFO - Processados 400000 de 4494859 registros
+2025-06-16 17:08:05,675 - INFO - Processados 500000 de 4494859 registros
+2025-06-16 17:08:06,492 - INFO - Processados 600000 de 4494859 registros
+2025-06-16 17:08:07,353 - INFO - Processados 700000 de 4494859 registros
+2025-06-16 17:08:08,218 - INFO - Processados 800000 de 4494859 registros
+2025-06-16 17:08:09,141 - INFO - Processados 900000 de 4494859 registros
+2025-06-16 17:08:09,986 - INFO - Processados 1000000 de 4494859 registros
+2025-06-16 17:08:10,750 - INFO - Processados 1100000 de 4494859 registros
+2025-06-16 17:08:11,586 - INFO - Processados 1200000 de 4494859 registros
+2025-06-16 17:08:12,412 - INFO - Processados 1300000 de 4494859 registros
+2025-06-16 17:08:13,202 - INFO - Processados 1400000 de 4494859 registros
+2025-06-16 17:08:14,038 - INFO - Processados 1500000 de 4494859 registros
+2025-06-16 17:08:14,818 - INFO - Processados 1600000 de 4494859 registros
+2025-06-16 17:08:15,992 - INFO - Processados 1700000 de 4494859 registros
+2025-06-16 17:08:17,767 - INFO - Processados 1800000 de 4494859 registros
+2025-06-16 17:08:19,087 - INFO - Processados 1900000 de 4494859 registros
+2025-06-16 17:08:20,306 - INFO - Processados 2000000 de 4494859 registros
+2025-06-16 17:08:21,466 - INFO - Processados 2100000 de 4494859 registros
+2025-06-16 17:08:22,249 - INFO - Processados 2200000 de 4494859 registros
+2025-06-16 17:08:23,070 - INFO - Processados 2300000 de 4494859 registros
+2025-06-16 17:08:23,866 - INFO - Processados 2400000 de 4494859 registros
+2025-06-16 17:08:24,769 - INFO - Processados 2500000 de 4494859 registros
+2025-06-16 17:08:25,574 - INFO - Processados 2600000 de 4494859 registros
+2025-06-16 17:08:26,342 - INFO - Processados 2700000 de 4494859 registros
+2025-06-16 17:08:27,155 - INFO - Processados 2800000 de 4494859 registros
+2025-06-16 17:08:27,957 - INFO - Processados 2900000 de 4494859 registros
+2025-06-16 17:08:28,777 - INFO - Processados 3000000 de 4494859 registros
+2025-06-16 17:08:29,635 - INFO - Processados 3100000 de 4494859 registros
+2025-06-16 17:08:30,533 - INFO - Processados 3200000 de 4494859 registros
+2025-06-16 17:08:31,345 - INFO - Processados 3300000 de 4494859 registros
+2025-06-16 17:08:32,191 - INFO - Processados 3400000 de 4494859 registros
+2025-06-16 17:08:32,988 - INFO - Processados 3500000 de 4494859 registros
+2025-06-16 17:08:33,790 - INFO - Processados 3600000 de 4494859 registros
+2025-06-16 17:08:34,635 - INFO - Processados 3700000 de 4494859 registros
+2025-06-16 17:08:35,468 - INFO - Processados 3800000 de 4494859 registros
+2025-06-16 17:08:36,241 - INFO - Processados 3900000 de 4494859 registros
+2025-06-16 17:08:37,052 - INFO - Processados 4000000 de 4494859 registros
+2025-06-16 17:08:37,887 - INFO - Processados 4100000 de 4494859 registros
+2025-06-16 17:08:38,656 - INFO - Processados 4200000 de 4494859 registros
+2025-06-16 17:08:39,394 - INFO - Processados 4300000 de 4494859 registros
+2025-06-16 17:08:40,206 - INFO - Processados 4400000 de 4494859 registros
+2025-06-16 17:08:40,964 - INFO - Processados 4494859 de 4494859 registros
+2025-06-16 17:08:40,964 - INFO - Arquivo Input/dados_parquet\Empresas8_EMPRECSV.parquet processado com sucesso
+2025-06-16 17:08:40,964 - INFO - Processando arquivo Input/dados_parquet\Empresas9_EMPRECSV.parquet para tabela Empresas
+2025-06-16 17:08:41,537 - INFO - Total de registros no arquivo: 4494859
+2025-06-16 17:08:42,392 - INFO - Processados 100000 de 4494859 registros
+2025-06-16 17:08:43,145 - INFO - Processados 200000 de 4494859 registros
+2025-06-16 17:08:43,927 - INFO - Processados 300000 de 4494859 registros
+2025-06-16 17:08:44,741 - INFO - Processados 400000 de 4494859 registros
+2025-06-16 17:08:45,617 - INFO - Processados 500000 de 4494859 registros
+2025-06-16 17:08:46,402 - INFO - Processados 600000 de 4494859 registros
+2025-06-16 17:08:47,187 - INFO - Processados 700000 de 4494859 registros
+2025-06-16 17:08:48,051 - INFO - Processados 800000 de 4494859 registros
+2025-06-16 17:08:48,899 - INFO - Processados 900000 de 4494859 registros
+2025-06-16 17:08:49,768 - INFO - Processados 1000000 de 4494859 registros
+2025-06-16 17:08:50,681 - INFO - Processados 1100000 de 4494859 registros
+2025-06-16 17:08:51,487 - INFO - Processados 1200000 de 4494859 registros
+2025-06-16 17:08:54,615 - INFO - Processados 1300000 de 4494859 registros
+2025-06-16 17:08:56,241 - INFO - Processados 1400000 de 4494859 registros
+2025-06-16 17:08:58,741 - INFO - Processados 1500000 de 4494859 registros
+2025-06-16 17:09:00,662 - INFO - Processados 1600000 de 4494859 registros
+2025-06-16 17:09:01,925 - INFO - Processados 1700000 de 4494859 registros
+2025-06-16 17:09:04,502 - INFO - Processados 1800000 de 4494859 registros
+2025-06-16 17:09:06,487 - INFO - Processados 1900000 de 4494859 registros
+2025-06-16 17:09:08,141 - INFO - Processados 2000000 de 4494859 registros
+2025-06-16 17:09:10,172 - INFO - Processados 2100000 de 4494859 registros
+2025-06-16 17:09:12,758 - INFO - Processados 2200000 de 4494859 registros
+2025-06-16 17:09:17,460 - INFO - Processados 2300000 de 4494859 registros
+2025-06-16 17:09:25,095 - INFO - Processados 2400000 de 4494859 registros
+2025-06-16 17:09:27,326 - INFO - Processados 2500000 de 4494859 registros
+2025-06-16 17:09:32,741 - INFO - Processados 2600000 de 4494859 registros
+2025-06-16 17:09:35,881 - INFO - Processados 2700000 de 4494859 registros
+2025-06-16 17:09:38,448 - INFO - Processados 2800000 de 4494859 registros
+2025-06-16 17:09:42,937 - INFO - Processados 2900000 de 4494859 registros
+2025-06-16 17:09:47,425 - INFO - Processados 3000000 de 4494859 registros
+2025-06-16 17:09:52,601 - INFO - Processados 3100000 de 4494859 registros
+2025-06-16 17:09:58,004 - INFO - Processados 3200000 de 4494859 registros
+2025-06-16 17:10:02,066 - INFO - Processados 3300000 de 4494859 registros
+2025-06-16 17:10:05,726 - INFO - Processados 3400000 de 4494859 registros
+2025-06-16 17:10:08,501 - INFO - Processados 3500000 de 4494859 registros
+2025-06-16 17:10:10,325 - INFO - Processados 3600000 de 4494859 registros
+2025-06-16 17:10:11,682 - INFO - Processados 3700000 de 4494859 registros
+2025-06-16 17:10:12,949 - INFO - Processados 3800000 de 4494859 registros
+2025-06-16 17:10:15,149 - INFO - Processados 3900000 de 4494859 registros
+2025-06-16 17:10:16,927 - INFO - Processados 4000000 de 4494859 registros
+2025-06-16 17:10:21,642 - INFO - Processados 4100000 de 4494859 registros
+2025-06-16 17:10:27,915 - INFO - Processados 4200000 de 4494859 registros
+2025-06-16 17:10:32,349 - INFO - Processados 4300000 de 4494859 registros
+2025-06-16 17:10:38,235 - INFO - Processados 4400000 de 4494859 registros
+2025-06-16 17:10:42,219 - INFO - Processados 4494859 de 4494859 registros
+2025-06-16 17:10:42,219 - INFO - Arquivo Input/dados_parquet\Empresas9_EMPRECSV.parquet processado com sucesso
+2025-06-16 17:10:42,229 - INFO - Tabela Empresas processada com sucesso
+2025-06-16 17:10:42,229 - INFO - 
+==================================================
+2025-06-16 17:10:42,229 - INFO - Iniciando processamento da tabela: Estabelecimentos
+2025-06-16 17:10:42,229 - INFO - Total de arquivos para processar: 9
+2025-06-16 17:10:42,229 - INFO - Processando arquivo Input/dados_parquet\Estabelecimentos1_ESTABELE.parquet para tabela Estabelecimentos
+2025-06-16 17:10:54,599 - INFO - Total de registros no arquivo: 4753434
+2025-06-16 17:11:06,282 - INFO - Processados 100000 de 4753434 registros
+2025-06-16 17:11:27,444 - INFO - Processados 200000 de 4753434 registros
+2025-06-16 17:12:04,814 - INFO - Processados 300000 de 4753434 registros
+2025-06-16 17:12:35,421 - INFO - Processados 400000 de 4753434 registros
+2025-06-16 17:13:07,419 - INFO - Processados 500000 de 4753434 registros
+2025-06-16 17:13:35,853 - INFO - Processados 600000 de 4753434 registros
+2025-06-16 17:13:53,041 - INFO - Processados 700000 de 4753434 registros
+2025-06-16 17:14:03,809 - INFO - Processados 800000 de 4753434 registros
+2025-06-16 17:14:08,780 - INFO - Processados 900000 de 4753434 registros
+2025-06-16 17:14:24,840 - INFO - Processados 1000000 de 4753434 registros
+2025-06-16 17:14:32,871 - INFO - Processados 1100000 de 4753434 registros
+2025-06-16 17:14:53,681 - INFO - Processados 1200000 de 4753434 registros
+2025-06-16 17:15:17,264 - INFO - Processados 1300000 de 4753434 registros
+2025-06-16 17:15:34,210 - INFO - Processados 1400000 de 4753434 registros
+2025-06-16 17:15:50,617 - INFO - Processados 1500000 de 4753434 registros
+2025-06-16 17:15:56,388 - INFO - Processados 1600000 de 4753434 registros
+2025-06-16 17:16:03,601 - INFO - Processados 1700000 de 4753434 registros
+2025-06-16 17:16:07,192 - INFO - Processados 1800000 de 4753434 registros
+2025-06-16 17:16:18,999 - INFO - Processados 1900000 de 4753434 registros
+2025-06-16 17:17:06,520 - INFO - Processados 2000000 de 4753434 registros
+2025-06-16 17:18:18,905 - INFO - Processados 2100000 de 4753434 registros
+2025-06-16 17:18:39,143 - INFO - Processados 2200000 de 4753434 registros
+2025-06-16 17:18:58,185 - INFO - Processados 2300000 de 4753434 registros
+2025-06-16 17:19:15,667 - INFO - Processados 2400000 de 4753434 registros
+2025-06-16 17:19:33,387 - INFO - Processados 2500000 de 4753434 registros
+2025-06-16 17:19:52,916 - INFO - Processados 2600000 de 4753434 registros
+2025-06-16 17:20:11,404 - INFO - Processados 2700000 de 4753434 registros
+2025-06-16 17:20:27,488 - INFO - Processados 2800000 de 4753434 registros
+2025-06-16 17:20:41,096 - INFO - Processados 2900000 de 4753434 registros
+2025-06-16 17:20:52,987 - INFO - Processados 3000000 de 4753434 registros
+2025-06-16 17:21:15,218 - INFO - Processados 3100000 de 4753434 registros
+2025-06-16 17:21:40,148 - INFO - Processados 3200000 de 4753434 registros
+2025-06-16 17:22:03,765 - INFO - Processados 3300000 de 4753434 registros
+2025-06-16 17:22:11,563 - INFO - Processados 3400000 de 4753434 registros
+2025-06-16 17:22:14,898 - INFO - Processados 3500000 de 4753434 registros
+2025-06-16 17:22:18,431 - INFO - Processados 3600000 de 4753434 registros
+2025-06-16 17:22:33,987 - INFO - Processados 3700000 de 4753434 registros
+2025-06-16 17:23:46,585 - INFO - Processados 3800000 de 4753434 registros
+2025-06-16 17:24:54,901 - INFO - Processados 3900000 de 4753434 registros
+2025-06-16 17:26:06,057 - INFO - Processados 4000000 de 4753434 registros
+2025-06-16 17:26:25,564 - INFO - Processados 4100000 de 4753434 registros
+2025-06-16 17:26:30,063 - INFO - Processados 4200000 de 4753434 registros
+2025-06-16 17:26:47,426 - INFO - Processados 4300000 de 4753434 registros
+2025-06-16 17:26:53,269 - INFO - Processados 4400000 de 4753434 registros
+2025-06-16 17:26:56,422 - INFO - Processados 4500000 de 4753434 registros
+2025-06-16 17:27:01,628 - INFO - Processados 4600000 de 4753434 registros
+2025-06-16 17:27:15,963 - INFO - Processados 4700000 de 4753434 registros
+2025-06-16 17:27:23,864 - INFO - Processados 4753434 de 4753434 registros
+2025-06-16 17:27:23,864 - INFO - Arquivo Input/dados_parquet\Estabelecimentos1_ESTABELE.parquet processado com sucesso
+2025-06-16 17:27:23,879 - INFO - Processando arquivo Input/dados_parquet\Estabelecimentos2_ESTABELE.parquet para tabela Estabelecimentos
+2025-06-16 17:27:24,962 - INFO - Total de registros no arquivo: 4753434
+2025-06-16 17:27:32,095 - INFO - Processados 100000 de 4753434 registros
+2025-06-16 17:27:49,593 - INFO - Processados 200000 de 4753434 registros
+2025-06-16 17:28:50,990 - INFO - Processados 300000 de 4753434 registros
+2025-06-16 17:28:55,296 - INFO - Processados 400000 de 4753434 registros
+2025-06-16 17:29:02,387 - ERROR - Erro ao processar arquivo Input/dados_parquet\Estabelecimentos2_ESTABELE.parquet: database or disk is full
+2025-06-16 17:29:02,387 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:02,426 - ERROR - Falha ao processar arquivo Input/dados_parquet\Estabelecimentos2_ESTABELE.parquet
+2025-06-16 17:29:02,426 - INFO - Processando arquivo Input/dados_parquet\Estabelecimentos3_ESTABELE.parquet para tabela Estabelecimentos
+2025-06-16 17:29:03,518 - INFO - Total de registros no arquivo: 4753434
+2025-06-16 17:29:06,553 - ERROR - Erro ao processar arquivo Input/dados_parquet\Estabelecimentos3_ESTABELE.parquet: database or disk is full
+2025-06-16 17:29:06,553 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:06,610 - ERROR - Falha ao processar arquivo Input/dados_parquet\Estabelecimentos3_ESTABELE.parquet
+2025-06-16 17:29:06,610 - INFO - Processando arquivo Input/dados_parquet\Estabelecimentos4_ESTABELE.parquet para tabela Estabelecimentos
+2025-06-16 17:29:08,122 - INFO - Total de registros no arquivo: 4753434
+2025-06-16 17:29:13,798 - ERROR - Erro ao processar arquivo Input/dados_parquet\Estabelecimentos4_ESTABELE.parquet: database or disk is full
+2025-06-16 17:29:13,814 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:13,842 - ERROR - Falha ao processar arquivo Input/dados_parquet\Estabelecimentos4_ESTABELE.parquet
+2025-06-16 17:29:13,842 - INFO - Processando arquivo Input/dados_parquet\Estabelecimentos5_ESTABELE.parquet para tabela Estabelecimentos
+2025-06-16 17:29:15,520 - INFO - Total de registros no arquivo: 4753434
+2025-06-16 17:29:17,098 - ERROR - Erro ao processar arquivo Input/dados_parquet\Estabelecimentos5_ESTABELE.parquet: database or disk is full
+2025-06-16 17:29:17,104 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:17,175 - ERROR - Falha ao processar arquivo Input/dados_parquet\Estabelecimentos5_ESTABELE.parquet
+2025-06-16 17:29:17,175 - INFO - Processando arquivo Input/dados_parquet\Estabelecimentos6_ESTABELE.parquet para tabela Estabelecimentos
+2025-06-16 17:29:18,706 - INFO - Total de registros no arquivo: 4753434
+2025-06-16 17:29:20,511 - ERROR - Erro ao processar arquivo Input/dados_parquet\Estabelecimentos6_ESTABELE.parquet: database or disk is full
+2025-06-16 17:29:20,511 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:20,560 - ERROR - Falha ao processar arquivo Input/dados_parquet\Estabelecimentos6_ESTABELE.parquet
+2025-06-16 17:29:20,560 - INFO - Processando arquivo Input/dados_parquet\Estabelecimentos7_ESTABELE.parquet para tabela Estabelecimentos
+2025-06-16 17:29:22,632 - INFO - Total de registros no arquivo: 4753434
+2025-06-16 17:29:23,301 - ERROR - Erro ao processar arquivo Input/dados_parquet\Estabelecimentos7_ESTABELE.parquet: database or disk is full
+2025-06-16 17:29:23,301 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:23,376 - ERROR - Falha ao processar arquivo Input/dados_parquet\Estabelecimentos7_ESTABELE.parquet
+2025-06-16 17:29:23,376 - INFO - Processando arquivo Input/dados_parquet\Estabelecimentos8_ESTABELE.parquet para tabela Estabelecimentos
+2025-06-16 17:29:24,829 - INFO - Total de registros no arquivo: 4753434
+2025-06-16 17:29:25,286 - ERROR - Erro ao processar arquivo Input/dados_parquet\Estabelecimentos8_ESTABELE.parquet: database or disk is full
+2025-06-16 17:29:25,286 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:25,339 - ERROR - Falha ao processar arquivo Input/dados_parquet\Estabelecimentos8_ESTABELE.parquet
+2025-06-16 17:29:25,340 - INFO - Processando arquivo Input/dados_parquet\Estabelecimentos9_ESTABELE.parquet para tabela Estabelecimentos
+2025-06-16 17:29:26,766 - INFO - Total de registros no arquivo: 4753434
+2025-06-16 17:29:27,410 - ERROR - Erro ao processar arquivo Input/dados_parquet\Estabelecimentos9_ESTABELE.parquet: database or disk is full
+2025-06-16 17:29:27,410 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:27,492 - ERROR - Falha ao processar arquivo Input/dados_parquet\Estabelecimentos9_ESTABELE.parquet
+2025-06-16 17:29:27,492 - INFO - Tabela Estabelecimentos processada com sucesso
+2025-06-16 17:29:27,492 - INFO - 
+==================================================
+2025-06-16 17:29:27,493 - INFO - Iniciando processamento da tabela: Simples
+2025-06-16 17:29:27,493 - INFO - Total de arquivos para processar: 1
+2025-06-16 17:29:27,493 - INFO - Processando arquivo Input/dados_parquet\Simples_D50510.parquet para tabela Simples
+2025-06-16 17:29:29,227 - INFO - Total de registros no arquivo: 43424968
+2025-06-16 17:29:29,433 - ERROR - Erro ao processar arquivo Input/dados_parquet\Simples_D50510.parquet: database or disk is full
+2025-06-16 17:29:29,433 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:29,451 - ERROR - Falha ao processar arquivo Input/dados_parquet\Simples_D50510.parquet
+2025-06-16 17:29:29,452 - INFO - Tabela Simples processada com sucesso
+2025-06-16 17:29:29,452 - INFO - 
+==================================================
+2025-06-16 17:29:29,453 - INFO - Iniciando processamento da tabela: Socios
+2025-06-16 17:29:29,453 - INFO - Total de arquivos para processar: 10
+2025-06-16 17:29:29,454 - INFO - Processando arquivo Input/dados_parquet\Socios0_SOCIOCSV.parquet para tabela Socios
+2025-06-16 17:29:30,279 - INFO - Total de registros no arquivo: 7599899
+2025-06-16 17:29:30,602 - ERROR - Erro ao processar arquivo Input/dados_parquet\Socios0_SOCIOCSV.parquet: database or disk is full
+2025-06-16 17:29:30,604 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:30,630 - ERROR - Falha ao processar arquivo Input/dados_parquet\Socios0_SOCIOCSV.parquet
+2025-06-16 17:29:30,630 - INFO - Processando arquivo Input/dados_parquet\Socios1_SOCIOCSV.parquet para tabela Socios
+2025-06-16 17:29:31,101 - INFO - Total de registros no arquivo: 2019149
+2025-06-16 17:29:31,286 - ERROR - Erro ao processar arquivo Input/dados_parquet\Socios1_SOCIOCSV.parquet: database or disk is full
+2025-06-16 17:29:31,286 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:31,310 - ERROR - Falha ao processar arquivo Input/dados_parquet\Socios1_SOCIOCSV.parquet
+2025-06-16 17:29:31,310 - INFO - Processando arquivo Input/dados_parquet\Socios2_SOCIOCSV.parquet para tabela Socios
+2025-06-16 17:29:31,768 - INFO - Total de registros no arquivo: 2019149
+2025-06-16 17:29:32,018 - ERROR - Erro ao processar arquivo Input/dados_parquet\Socios2_SOCIOCSV.parquet: database or disk is full
+2025-06-16 17:29:32,018 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:32,054 - ERROR - Falha ao processar arquivo Input/dados_parquet\Socios2_SOCIOCSV.parquet
+2025-06-16 17:29:32,055 - INFO - Processando arquivo Input/dados_parquet\Socios3_SOCIOCSV.parquet para tabela Socios
+2025-06-16 17:29:32,599 - INFO - Total de registros no arquivo: 2019149
+2025-06-16 17:29:32,913 - ERROR - Erro ao processar arquivo Input/dados_parquet\Socios3_SOCIOCSV.parquet: database or disk is full
+2025-06-16 17:29:32,913 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:32,959 - ERROR - Falha ao processar arquivo Input/dados_parquet\Socios3_SOCIOCSV.parquet
+2025-06-16 17:29:32,961 - INFO - Processando arquivo Input/dados_parquet\Socios4_SOCIOCSV.parquet para tabela Socios
+2025-06-16 17:29:33,656 - INFO - Total de registros no arquivo: 2019149
+2025-06-16 17:29:34,701 - INFO - Processados 100000 de 2019149 registros
+2025-06-16 17:29:35,547 - INFO - Processados 200000 de 2019149 registros
+2025-06-16 17:29:36,535 - INFO - Processados 300000 de 2019149 registros
+2025-06-16 17:29:37,342 - INFO - Processados 400000 de 2019149 registros
+2025-06-16 17:29:38,308 - INFO - Processados 500000 de 2019149 registros
+2025-06-16 17:29:39,253 - INFO - Processados 600000 de 2019149 registros
+2025-06-16 17:29:40,266 - INFO - Processados 700000 de 2019149 registros
+2025-06-16 17:29:41,034 - INFO - Processados 800000 de 2019149 registros
+2025-06-16 17:29:41,871 - INFO - Processados 900000 de 2019149 registros
+2025-06-16 17:29:42,745 - INFO - Processados 1000000 de 2019149 registros
+2025-06-16 17:29:43,527 - INFO - Processados 1100000 de 2019149 registros
+2025-06-16 17:29:44,475 - INFO - Processados 1200000 de 2019149 registros
+2025-06-16 17:29:45,395 - INFO - Processados 1300000 de 2019149 registros
+2025-06-16 17:29:46,617 - INFO - Processados 1400000 de 2019149 registros
+2025-06-16 17:29:47,668 - INFO - Processados 1500000 de 2019149 registros
+2025-06-16 17:29:48,786 - INFO - Processados 1600000 de 2019149 registros
+2025-06-16 17:29:49,973 - INFO - Processados 1700000 de 2019149 registros
+2025-06-16 17:29:50,931 - INFO - Processados 1800000 de 2019149 registros
+2025-06-16 17:29:51,918 - INFO - Processados 1900000 de 2019149 registros
+2025-06-16 17:29:52,815 - INFO - Processados 2000000 de 2019149 registros
+2025-06-16 17:29:53,078 - INFO - Processados 2019149 de 2019149 registros
+2025-06-16 17:29:53,078 - INFO - Arquivo Input/dados_parquet\Socios4_SOCIOCSV.parquet processado com sucesso
+2025-06-16 17:29:53,078 - INFO - Processando arquivo Input/dados_parquet\Socios5_SOCIOCSV.parquet para tabela Socios
+2025-06-16 17:29:54,689 - INFO - Total de registros no arquivo: 2019149
+2025-06-16 17:29:55,779 - INFO - Processados 100000 de 2019149 registros
+2025-06-16 17:29:56,229 - ERROR - Erro ao processar arquivo Input/dados_parquet\Socios5_SOCIOCSV.parquet: database or disk is full
+2025-06-16 17:29:56,229 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:56,260 - ERROR - Falha ao processar arquivo Input/dados_parquet\Socios5_SOCIOCSV.parquet
+2025-06-16 17:29:56,261 - INFO - Processando arquivo Input/dados_parquet\Socios6_SOCIOCSV.parquet para tabela Socios
+2025-06-16 17:29:57,532 - INFO - Total de registros no arquivo: 2019149
+2025-06-16 17:29:57,877 - ERROR - Erro ao processar arquivo Input/dados_parquet\Socios6_SOCIOCSV.parquet: database or disk is full
+2025-06-16 17:29:57,893 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:57,915 - ERROR - Falha ao processar arquivo Input/dados_parquet\Socios6_SOCIOCSV.parquet
+2025-06-16 17:29:57,915 - INFO - Processando arquivo Input/dados_parquet\Socios7_SOCIOCSV.parquet para tabela Socios
+2025-06-16 17:29:58,322 - INFO - Total de registros no arquivo: 2019149
+2025-06-16 17:29:58,738 - ERROR - Erro ao processar arquivo Input/dados_parquet\Socios7_SOCIOCSV.parquet: database or disk is full
+2025-06-16 17:29:58,738 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:29:58,772 - ERROR - Falha ao processar arquivo Input/dados_parquet\Socios7_SOCIOCSV.parquet
+2025-06-16 17:29:58,772 - INFO - Processando arquivo Input/dados_parquet\Socios8_SOCIOCSV.parquet para tabela Socios
+2025-06-16 17:30:00,148 - INFO - Total de registros no arquivo: 2019149
+2025-06-16 17:30:00,911 - ERROR - Erro ao processar arquivo Input/dados_parquet\Socios8_SOCIOCSV.parquet: database or disk is full
+2025-06-16 17:30:00,911 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:30:00,949 - ERROR - Falha ao processar arquivo Input/dados_parquet\Socios8_SOCIOCSV.parquet
+2025-06-16 17:30:00,949 - INFO - Processando arquivo Input/dados_parquet\Socios9_SOCIOCSV.parquet para tabela Socios
+2025-06-16 17:30:01,544 - INFO - Total de registros no arquivo: 2019149
+2025-06-16 17:30:02,001 - ERROR - Erro ao processar arquivo Input/dados_parquet\Socios9_SOCIOCSV.parquet: database or disk is full
+2025-06-16 17:30:02,002 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 144, in processar_arquivo_parquet
+    batch_pd.to_sql(tabela, conn, if_exists='append', index=False)
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\core\generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2841, in to_sql
+    return table.insert(chunksize, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MatheusRodrigues\Documents\Indorama\new_comex\venv\Lib\site-packages\pandas\io\sql.py", line 2537, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: database or disk is full
+
+2025-06-16 17:30:02,041 - ERROR - Falha ao processar arquivo Input/dados_parquet\Socios9_SOCIOCSV.parquet
+2025-06-16 17:30:02,043 - INFO - Tabela Socios processada com sucesso
+2025-06-16 17:30:02,044 - INFO - 
+Processo de ingestão concluído em 1871.19 segundos

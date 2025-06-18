@@ -1,0 +1,61 @@
+2025-06-13 16:09:01,103 - INFO - Carregando tabelas auxiliares dos arquivos JSON...
+2025-06-13 16:09:01,108 - INFO - Colunas da tabela CO_BLOCO: ['CO_PAIS', 'CO_BLOCO', 'NO_BLOCO', 'NO_BLOCO_ING', 'NO_BLOCO_ESP']
+2025-06-13 16:09:01,108 - INFO - Tabela CO_BLOCO carregada com sucesso: 322 registros
+2025-06-13 16:09:01,215 - INFO - Colunas da tabela CO_CGCE_N3: ['CO_NCM', 'NO_NCM_POR', 'CO_CGCE_N3', 'NO_CGCE_N3', 'NO_CGCE_N3_ING', 'NO_CGCE_N3_ESP', 'CO_CGCE_N2', 'NO_CGCE_N2', 'NO_CGCE_N2_ING', 'NO_CGCE_N2_ESP', 'CO_CGCE_N1', 'NO_CGCE_N1', 'NO_CGCE_N1_ING', 'NO_CGCE_N1_ESP']
+2025-06-13 16:09:01,215 - INFO - Tabela CO_CGCE_N3 carregada com sucesso: 13720 registros
+2025-06-13 16:09:01,330 - INFO - Colunas da tabela CO_CUCI: ['CO_NCM', 'NO_NCM_POR', 'CO_CUCI_ITEM', 'NO_CUCI_ITEM', 'CO_CUCI_SUB', 'NO_CUCI_SUB', 'CO_CUCI_GRUPO', 'NO_CUCI_GRUPO', 'CO_CUCI_DIVISAO', 'NO_CUCI_DIVISAO', 'CO_CUCI_SEC', 'NO_CUCI_SEC']
+2025-06-13 16:09:01,330 - INFO - Tabela CO_CUCI carregada com sucesso: 13720 registros
+2025-06-13 16:09:01,383 - INFO - Colunas da tabela CO_CUCI_GRUPO_CO_ISIC_SECAO: ['CO_NCM', 'NO_NCM_POR', 'CO_ISIC_SECAO', 'NO_ISIC_SECAO', 'CO_CUCI_GRUPO', 'NO_CUCI_GRUPO']
+2025-06-13 16:09:01,383 - INFO - Tabela CO_CUCI_GRUPO_CO_ISIC_SECAO carregada com sucesso: 13720 registros
+2025-06-13 16:09:01,423 - INFO - Colunas da tabela CO_FAT_AGREG: ['CO_NCM', 'NO_NCM_POR', 'CO_FAT_AGREG', 'NO_FAT_AGREG', 'NO_FAT_AGREG_GP']
+2025-06-13 16:09:01,423 - INFO - Tabela CO_FAT_AGREG carregada com sucesso: 13699 registros
+2025-06-13 16:09:01,581 - INFO - Colunas da tabela CO_ISIC_CLASSE: ['CO_NCM', 'NO_NCM_POR', 'CO_ISIC_CLASSE', 'NO_ISIC_CLASSE', 'NO_ISIC_CLASSE_ING', 'NO_ISIC_CLASSE_ESP', 'CO_ISIC_GRUPO', 'NO_ISIC_GRUPO', 'NO_ISIC_GRUPO_ING', 'NO_ISIC_GRUPO_ESP', 'CO_ISIC_DIVISAO', 'NO_ISIC_DIVISAO', 'NO_ISIC_DIVISAO_ING', 'NO_ISIC_DIVISAO_ESP', 'CO_ISIC_SECAO', 'NO_ISIC_SECAO', 'NO_ISIC_SECAO_ING', 'NO_ISIC_SECAO_ESP']
+2025-06-13 16:09:01,582 - INFO - Tabela CO_ISIC_CLASSE carregada com sucesso: 13720 registros
+2025-06-13 16:09:01,593 - INFO - Colunas da tabela CO_MUN_GEO: ['CO_MUN_GEO', 'NO_MUN', 'NO_MUN_MIN', 'SG_UF']
+2025-06-13 16:09:01,594 - INFO - Tabela CO_MUN_GEO carregada com sucesso: 5570 registros
+2025-06-13 16:09:01,597 - INFO - Colunas da tabela CO_PAIS: ['CO_PAIS', 'CO_PAIS_ISON3', 'CO_PAIS_ISOA3', 'NO_PAIS', 'NO_PAIS_ING', 'NO_PAIS_ESP']
+2025-06-13 16:09:01,598 - INFO - Tabela CO_PAIS carregada com sucesso: 281 registros
+2025-06-13 16:09:01,649 - INFO - Colunas da tabela CO_PPE: ['CO_NCM', 'NO_NCM_POR', 'CO_PPE', 'NO_PPE', 'NO_PPE_MIN', 'NO_PPE_ING']
+2025-06-13 16:09:01,649 - INFO - Tabela CO_PPE carregada com sucesso: 13418 registros
+2025-06-13 16:09:01,703 - INFO - Colunas da tabela CO_PPI: ['CO_NCM', 'NO_NCM_POR', 'CO_PPI', 'NO_PPI', 'NO_PPI_MIN', 'NO_PPI_ING']
+2025-06-13 16:09:01,703 - INFO - Tabela CO_PPI carregada com sucesso: 13418 registros
+2025-06-13 16:09:01,875 - INFO - Colunas da tabela CO_SH6: ['CO_NCM', 'NO_NCM_POR', 'CO_SH6', 'NO_SH6_POR', 'NO_SH6_ESP', 'NO_SH6_ING', 'CO_SH4', 'NO_SH4_POR', 'NO_SH4_ESP', 'NO_SH4_ING', 'CO_SH2', 'NO_SH2_POR', 'NO_SH2_ESP', 'NO_SH2_ING', 'CO_NCM_SECROM', 'NO_SEC_POR', 'NO_SEC_ESP', 'NO_SEC_ING']
+2025-06-13 16:09:01,875 - INFO - Tabela CO_SH6 carregada com sucesso: 13720 registros
+2025-06-13 16:09:01,919 - INFO - Colunas da tabela CO_SIIT: ['CO_NCM', 'NO_NCM_POR', 'CO_SIIT', 'NO_SIIT']
+2025-06-13 16:09:01,919 - INFO - Tabela CO_SIIT carregada com sucesso: 13418 registros
+2025-06-13 16:09:01,929 - INFO - Colunas da tabela CO_UF: ['CO_UF', 'SG_UF', 'NO_UF', 'NO_REGIAO']
+2025-06-13 16:09:01,929 - INFO - Tabela CO_UF carregada com sucesso: 34 registros
+2025-06-13 16:09:01,968 - INFO - Colunas da tabela CO_UNID: ['CO_NCM', 'NO_NCM_POR', 'CO_UNID', 'NO_UNID', 'SG_UNID']
+2025-06-13 16:09:01,968 - INFO - Tabela CO_UNID carregada com sucesso: 13720 registros
+2025-06-13 16:09:01,968 - INFO - Colunas da tabela CO_URF: ['CO_URF', 'NO_URF']
+2025-06-13 16:09:01,968 - INFO - Tabela CO_URF carregada com sucesso: 279 registros
+2025-06-13 16:09:01,968 - INFO - Colunas da tabela CO_VIA: ['CO_VIA', 'NO_VIA']
+2025-06-13 16:09:01,968 - INFO - Tabela CO_VIA carregada com sucesso: 17 registros
+2025-06-13 16:09:01,968 - INFO - Procurando arquivos de importação...
+2025-06-13 16:09:01,978 - INFO - Arquivo selecionado: c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\Input\json\IMP_2024.json
+2025-06-13 16:09:15,186 - INFO - Dados carregados com sucesso. Total de registros: 2273708
+2025-06-13 16:09:15,186 - INFO - Colunas do JSON: ['CO_ANO', 'CO_MES', 'CO_NCM', 'CO_UNID', 'CO_PAIS', 'SG_UF_NCM', 'CO_VIA', 'CO_URF', 'QT_ESTAT', 'KG_LIQUIDO', 'VL_FOB', 'VL_FRETE', 'VL_SEGURO']
+2025-06-13 16:09:15,186 - INFO - Enriquecendo dados com tabelas auxiliares relevantes...
+2025-06-13 16:09:15,813 - INFO - Filtrado para 25505 registros com NCMs desejados.
+2025-06-13 16:09:15,813 - INFO - Fazendo merge com CO_BLOCO pela chave: CO_PAIS <-> CO_PAIS
+2025-06-13 16:09:15,847 - INFO - Fazendo merge com CO_CGCE_N3 pela chave: CO_NCM <-> CO_NCM
+2025-06-13 16:09:15,872 - INFO - Fazendo merge com CO_CUCI pela chave: CO_NCM <-> CO_NCM
+2025-06-13 16:09:15,901 - INFO - Fazendo merge com CO_CUCI_GRUPO_CO_ISIC_SECAO pela chave: CO_NCM <-> CO_NCM
+2025-06-13 16:09:15,932 - INFO - Fazendo merge com CO_FAT_AGREG pela chave: CO_NCM <-> CO_NCM
+2025-06-13 16:09:15,956 - INFO - Fazendo merge com CO_ISIC_CLASSE pela chave: CO_NCM <-> CO_NCM
+2025-06-13 16:09:15,999 - WARNING - Chave(s) não encontrada(s) para merge com CO_MUN_GEO: CO_MUN_GEO ou CO_MUN_GEO
+2025-06-13 16:09:15,999 - INFO - Fazendo merge com CO_PAIS pela chave: CO_PAIS <-> CO_PAIS
+2025-06-13 16:09:16,035 - INFO - Fazendo merge com CO_PPE pela chave: CO_NCM <-> CO_NCM
+2025-06-13 16:09:16,080 - INFO - Fazendo merge com CO_PPI pela chave: CO_NCM <-> CO_NCM
+2025-06-13 16:09:16,124 - INFO - Fazendo merge com CO_SH6 pela chave: CO_NCM <-> CO_NCM
+2025-06-13 16:09:16,175 - INFO - Fazendo merge com CO_SIIT pela chave: CO_NCM <-> CO_NCM
+2025-06-13 16:09:16,260 - INFO - Fazendo merge com CO_UF pela chave: SG_UF_NCM <-> SG_UF
+2025-06-13 16:09:16,321 - INFO - Fazendo merge com CO_UNID pela chave: CO_NCM <-> CO_NCM
+2025-06-13 16:09:16,370 - INFO - Fazendo merge com CO_URF pela chave: CO_URF <-> CO_URF
+2025-06-13 16:09:16,417 - INFO - Fazendo merge com CO_VIA pela chave: CO_VIA <-> CO_VIA
+2025-06-13 16:09:16,446 - INFO - Dados enriquecidos com tabelas auxiliares relevantes!
+2025-06-13 16:09:16,446 - INFO - Analisando agrupamento por país...
+2025-06-13 16:09:19,054 - INFO - Arquivos salvos com sucesso:
+ - c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\Output_csv\indovinya_importadores_ranking_20250613_160916.csv
+ - c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\Output_csv\indovinya_importadores_20250613_160916.csv
+ - c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\Output_csv\indovinya_importadores_20250613_160916.parquet

@@ -1,0 +1,119 @@
+2025-06-16 16:40:06,675 - INFO - Iniciando pipeline de dados...
+2025-06-16 16:40:06,690 - INFO - 
+==================================================
+2025-06-16 16:40:06,690 - INFO - Iniciando processamento da tabela: Paises
+2025-06-16 16:40:06,690 - INFO - Arquivos encontrados: 1
+2025-06-16 16:40:06,690 - INFO - Unificando arquivos da tabela Paises...
+2025-06-16 16:40:06,690 - INFO - Processando Input/dados_parquet\Paises_PAISCSV.parquet...
+2025-06-16 16:40:06,796 - INFO - Arquivo Input/dados_parquet\Paises_PAISCSV.parquet processado com sucesso. Linhas: 254
+2025-06-16 16:40:06,796 - INFO - Total de arquivos processados: 1
+2025-06-16 16:40:06,797 - INFO - Total de linhas antes da concatenação: 254
+2025-06-16 16:40:06,797 - INFO - Total de linhas após concatenação: 254
+2025-06-16 16:40:06,820 - INFO - Arquivo unificado salvo em Output_parquet\paises_unificado.parquet
+2025-06-16 16:40:06,821 - INFO - Tabela Paises processada com sucesso. Total de registros: 254
+2025-06-16 16:40:06,821 - INFO - 
+==================================================
+2025-06-16 16:40:06,822 - INFO - Iniciando processamento da tabela: Municipios
+2025-06-16 16:40:06,822 - INFO - Arquivos encontrados: 1
+2025-06-16 16:40:06,822 - INFO - Unificando arquivos da tabela Municipios...
+2025-06-16 16:40:06,823 - INFO - Processando Input/dados_parquet\Municipios_MUNICCSV.parquet...
+2025-06-16 16:40:06,825 - INFO - Arquivo Input/dados_parquet\Municipios_MUNICCSV.parquet processado com sucesso. Linhas: 5571
+2025-06-16 16:40:06,825 - INFO - Total de arquivos processados: 1
+2025-06-16 16:40:06,825 - INFO - Total de linhas antes da concatenação: 5571
+2025-06-16 16:40:06,825 - INFO - Total de linhas após concatenação: 5571
+2025-06-16 16:40:06,832 - INFO - Arquivo unificado salvo em Output_parquet\municipios_unificado.parquet
+2025-06-16 16:40:06,833 - INFO - Tabela Municipios processada com sucesso. Total de registros: 5571
+2025-06-16 16:40:06,833 - INFO - 
+==================================================
+2025-06-16 16:40:06,834 - INFO - Iniciando processamento da tabela: Qualificacoes
+2025-06-16 16:40:06,834 - INFO - Arquivos encontrados: 1
+2025-06-16 16:40:06,835 - INFO - Unificando arquivos da tabela Qualificacoes...
+2025-06-16 16:40:06,835 - INFO - Processando Input/dados_parquet\Qualificacoes_QUALSCSV.parquet...
+2025-06-16 16:40:06,838 - INFO - Arquivo Input/dados_parquet\Qualificacoes_QUALSCSV.parquet processado com sucesso. Linhas: 67
+2025-06-16 16:40:06,838 - INFO - Total de arquivos processados: 1
+2025-06-16 16:40:06,839 - INFO - Total de linhas antes da concatenação: 67
+2025-06-16 16:40:06,839 - INFO - Total de linhas após concatenação: 67
+2025-06-16 16:40:06,849 - INFO - Arquivo unificado salvo em Output_parquet\qualificacoes_unificado.parquet
+2025-06-16 16:40:06,850 - INFO - Tabela Qualificacoes processada com sucesso. Total de registros: 67
+2025-06-16 16:40:06,850 - INFO - 
+==================================================
+2025-06-16 16:40:06,850 - INFO - Iniciando processamento da tabela: Naturezas
+2025-06-16 16:40:06,851 - INFO - Arquivos encontrados: 1
+2025-06-16 16:40:06,851 - INFO - Unificando arquivos da tabela Naturezas...
+2025-06-16 16:40:06,852 - INFO - Processando Input/dados_parquet\Naturezas_NATJUCSV.parquet...
+2025-06-16 16:40:06,854 - INFO - Arquivo Input/dados_parquet\Naturezas_NATJUCSV.parquet processado com sucesso. Linhas: 89
+2025-06-16 16:40:06,855 - INFO - Total de arquivos processados: 1
+2025-06-16 16:40:06,855 - INFO - Total de linhas antes da concatenação: 89
+2025-06-16 16:40:06,855 - INFO - Total de linhas após concatenação: 89
+2025-06-16 16:40:06,859 - INFO - Arquivo unificado salvo em Output_parquet\naturezas_unificado.parquet
+2025-06-16 16:40:06,859 - INFO - Tabela Naturezas processada com sucesso. Total de registros: 89
+2025-06-16 16:40:06,860 - INFO - 
+==================================================
+2025-06-16 16:40:06,860 - INFO - Iniciando processamento da tabela: Cnaes
+2025-06-16 16:40:06,861 - INFO - Arquivos encontrados: 1
+2025-06-16 16:40:06,861 - INFO - Unificando arquivos da tabela Cnaes...
+2025-06-16 16:40:06,862 - INFO - Processando Input/dados_parquet\Cnaes_CNAECSV.parquet...
+2025-06-16 16:40:06,864 - INFO - Arquivo Input/dados_parquet\Cnaes_CNAECSV.parquet processado com sucesso. Linhas: 1358
+2025-06-16 16:40:06,865 - INFO - Total de arquivos processados: 1
+2025-06-16 16:40:06,865 - INFO - Total de linhas antes da concatenação: 1358
+2025-06-16 16:40:06,866 - INFO - Total de linhas após concatenação: 1358
+2025-06-16 16:40:06,870 - INFO - Arquivo unificado salvo em Output_parquet\cnaes_unificado.parquet
+2025-06-16 16:40:06,870 - INFO - Tabela Cnaes processada com sucesso. Total de registros: 1358
+2025-06-16 16:40:06,871 - INFO - 
+==================================================
+2025-06-16 16:40:06,871 - INFO - Iniciando processamento da tabela: Motivos
+2025-06-16 16:40:06,872 - INFO - Arquivos encontrados: 1
+2025-06-16 16:40:06,872 - INFO - Unificando arquivos da tabela Motivos...
+2025-06-16 16:40:06,872 - INFO - Processando Input/dados_parquet\Motivos_MOTICSV.parquet...
+2025-06-16 16:40:06,876 - INFO - Arquivo Input/dados_parquet\Motivos_MOTICSV.parquet processado com sucesso. Linhas: 62
+2025-06-16 16:40:06,877 - INFO - Total de arquivos processados: 1
+2025-06-16 16:40:06,877 - INFO - Total de linhas antes da concatenação: 62
+2025-06-16 16:40:06,878 - INFO - Total de linhas após concatenação: 62
+2025-06-16 16:40:06,880 - INFO - Arquivo unificado salvo em Output_parquet\motivos_unificado.parquet
+2025-06-16 16:40:06,880 - INFO - Tabela Motivos processada com sucesso. Total de registros: 62
+2025-06-16 16:40:06,881 - INFO - 
+==================================================
+2025-06-16 16:40:06,881 - INFO - Iniciando processamento da tabela: Empresas
+2025-06-16 16:40:06,882 - INFO - Arquivos encontrados: 10
+2025-06-16 16:40:06,882 - INFO - Unificando arquivos da tabela Empresas...
+2025-06-16 16:40:06,882 - INFO - Processando Input/dados_parquet\Empresas0_EMPRECSV.parquet...
+2025-06-16 16:40:09,389 - INFO - Arquivo Input/dados_parquet\Empresas0_EMPRECSV.parquet processado com sucesso. Linhas: 22293499
+2025-06-16 16:40:09,389 - INFO - Processando Input/dados_parquet\Empresas1_EMPRECSV.parquet...
+2025-06-16 16:40:10,168 - INFO - Arquivo Input/dados_parquet\Empresas1_EMPRECSV.parquet processado com sucesso. Linhas: 4494859
+2025-06-16 16:40:10,168 - INFO - Processando Input/dados_parquet\Empresas2_EMPRECSV.parquet...
+2025-06-16 16:40:11,013 - INFO - Arquivo Input/dados_parquet\Empresas2_EMPRECSV.parquet processado com sucesso. Linhas: 4494859
+2025-06-16 16:40:11,013 - INFO - Processando Input/dados_parquet\Empresas3_EMPRECSV.parquet...
+2025-06-16 16:40:12,890 - INFO - Arquivo Input/dados_parquet\Empresas3_EMPRECSV.parquet processado com sucesso. Linhas: 4494859
+2025-06-16 16:40:12,890 - INFO - Processando Input/dados_parquet\Empresas4_EMPRECSV.parquet...
+2025-06-16 16:40:17,760 - INFO - Arquivo Input/dados_parquet\Empresas4_EMPRECSV.parquet processado com sucesso. Linhas: 4494859
+2025-06-16 16:40:17,776 - INFO - Processando Input/dados_parquet\Empresas5_EMPRECSV.parquet...
+2025-06-16 16:40:23,461 - INFO - Arquivo Input/dados_parquet\Empresas5_EMPRECSV.parquet processado com sucesso. Linhas: 4494859
+2025-06-16 16:40:23,461 - INFO - Processando Input/dados_parquet\Empresas6_EMPRECSV.parquet...
+2025-06-16 16:40:24,939 - INFO - Arquivo Input/dados_parquet\Empresas6_EMPRECSV.parquet processado com sucesso. Linhas: 4494859
+2025-06-16 16:40:24,939 - INFO - Processando Input/dados_parquet\Empresas7_EMPRECSV.parquet...
+2025-06-16 16:40:33,171 - INFO - Arquivo Input/dados_parquet\Empresas7_EMPRECSV.parquet processado com sucesso. Linhas: 4494859
+2025-06-16 16:40:33,171 - INFO - Processando Input/dados_parquet\Empresas8_EMPRECSV.parquet...
+2025-06-16 16:40:36,397 - INFO - Arquivo Input/dados_parquet\Empresas8_EMPRECSV.parquet processado com sucesso. Linhas: 4494859
+2025-06-16 16:40:36,397 - INFO - Processando Input/dados_parquet\Empresas9_EMPRECSV.parquet...
+2025-06-16 16:40:38,050 - INFO - Arquivo Input/dados_parquet\Empresas9_EMPRECSV.parquet processado com sucesso. Linhas: 4494859
+2025-06-16 16:40:38,053 - INFO - Total de arquivos processados: 10
+2025-06-16 16:40:38,054 - INFO - Total de linhas antes da concatenação: 62747230
+2025-06-16 16:40:38,075 - INFO - Total de linhas após concatenação: 62747230
+2025-06-16 16:43:47,111 - INFO - Arquivo unificado salvo em Output_parquet\empresas_unificado.parquet
+2025-06-16 16:43:47,410 - INFO - Tabela Empresas processada com sucesso. Total de registros: 62747230
+2025-06-16 16:43:48,542 - INFO - 
+==================================================
+2025-06-16 16:43:48,544 - INFO - Iniciando processamento da tabela: Estabelecimentos
+2025-06-16 16:43:48,546 - INFO - Arquivos encontrados: 9
+2025-06-16 16:43:48,546 - INFO - Unificando arquivos da tabela Estabelecimentos...
+2025-06-16 16:43:48,547 - INFO - Processando Input/dados_parquet\Estabelecimentos1_ESTABELE.parquet...
+2025-06-16 16:43:57,907 - INFO - Arquivo Input/dados_parquet\Estabelecimentos1_ESTABELE.parquet processado com sucesso. Linhas: 4753434
+2025-06-16 16:43:57,913 - INFO - Processando Input/dados_parquet\Estabelecimentos2_ESTABELE.parquet...
+2025-06-16 16:44:18,764 - INFO - Arquivo Input/dados_parquet\Estabelecimentos2_ESTABELE.parquet processado com sucesso. Linhas: 4753434
+2025-06-16 16:44:18,764 - INFO - Processando Input/dados_parquet\Estabelecimentos3_ESTABELE.parquet...
+2025-06-16 16:44:31,209 - INFO - Arquivo Input/dados_parquet\Estabelecimentos3_ESTABELE.parquet processado com sucesso. Linhas: 4753434
+2025-06-16 16:44:31,209 - INFO - Processando Input/dados_parquet\Estabelecimentos4_ESTABELE.parquet...
+2025-06-16 16:44:37,408 - INFO - Arquivo Input/dados_parquet\Estabelecimentos4_ESTABELE.parquet processado com sucesso. Linhas: 4753434
+2025-06-16 16:44:37,418 - INFO - Processando Input/dados_parquet\Estabelecimentos5_ESTABELE.parquet...
+2025-06-16 16:44:57,753 - INFO - Arquivo Input/dados_parquet\Estabelecimentos5_ESTABELE.parquet processado com sucesso. Linhas: 4753434
+2025-06-16 16:44:57,878 - INFO - Processando Input/dados_parquet\Estabelecimentos6_ESTABELE.parquet...

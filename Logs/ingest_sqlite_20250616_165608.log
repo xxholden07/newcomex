@@ -1,0 +1,15 @@
+2025-06-16 16:56:08,176 - INFO - Iniciando processo de ingestão...
+2025-06-16 16:56:08,188 - ERROR - Erro ao criar tabelas: table Empresas already exists
+2025-06-16 16:56:08,188 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 87, in criar_tabelas
+    conn.executescript(sql_script)
+sqlite3.OperationalError: table Empresas already exists
+
+2025-06-16 16:56:08,204 - ERROR - Erro na execução do processo de ingestão: table Empresas already exists
+2025-06-16 16:56:08,207 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 134, in main
+    criar_tabelas(conn)
+  File "c:\Users\MatheusRodrigues\Documents\Indorama\new_comex\ingest_parquet_to_sqlite.py", line 87, in criar_tabelas
+    conn.executescript(sql_script)
+sqlite3.OperationalError: table Empresas already exists
+

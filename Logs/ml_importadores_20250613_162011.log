@@ -1,0 +1,49 @@
+2025-06-13 16:20:12,801 - INFO - VPN conectada - Host Oracle acessível
+2025-06-13 16:20:12,801 - INFO - VPN conectada - Host Oracle acessível
+2025-06-13 16:20:12,801 - INFO - Tentando conectar ao Oracle (tentativa 1/3)
+2025-06-13 16:20:13,125 - INFO - Conexão Oracle estabelecida com sucesso
+2025-06-13 16:20:13,125 - INFO - Carregando dados de treino do LogComex...
+2025-06-13 16:20:15,200 - INFO - Dados de treino carregados: 6870 registros
+2025-06-13 16:20:15,215 - INFO - Preparando dados para treinamento...
+2025-06-13 16:20:15,262 - INFO - Iniciando treinamento do modelo...
+2025-06-13 16:20:54,669 - INFO - Acurácia do modelo: 51.53%
+2025-06-13 16:20:54,684 - INFO - VPN conectada - Host Oracle acessível
+2025-06-13 16:20:54,684 - INFO - Tentando conectar ao Oracle (tentativa 1/3)
+2025-06-13 16:20:54,939 - INFO - Conexão Oracle estabelecida com sucesso
+2025-06-13 16:20:54,939 - INFO - Carregando dados de importação...
+2025-06-13 16:20:54,994 - ERROR - Erro ao carregar dados de importação: Execution failed on sql '
+            SELECT
+                rownum AS id,
+                CO_NCM AS NCM,
+                SG_UF_NCM AS "UF IMPORTADOR",
+                '' AS "CIDADE DO IMPORTADOR",
+                '' AS "Descrição produto",
+                NO_VIA AS MODAL,
+                NO_PAIS AS "País de aquisição",
+                KG_LIQUIDO AS "Peso líquido",
+                VL_FOB AS "VALOR FOB ESTIMADO TOTAL",
+                VL_FRETE AS "Valor Frete total",
+                VL_SEGURO AS "Valor Seguro total",
+                QT_ESTAT AS "QTD Estatística",
+                SG_UNID AS "Unidade de Medida Estatística"
+            FROM Importacao
+        ': ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2025-06-13 16:20:54,994 - ERROR - Erro no processo principal: Execution failed on sql '
+            SELECT
+                rownum AS id,
+                CO_NCM AS NCM,
+                SG_UF_NCM AS "UF IMPORTADOR",
+                '' AS "CIDADE DO IMPORTADOR",
+                '' AS "Descrição produto",
+                NO_VIA AS MODAL,
+                NO_PAIS AS "País de aquisição",
+                KG_LIQUIDO AS "Peso líquido",
+                VL_FOB AS "VALOR FOB ESTIMADO TOTAL",
+                VL_FRETE AS "Valor Frete total",
+                VL_SEGURO AS "Valor Seguro total",
+                QT_ESTAT AS "QTD Estatística",
+                SG_UNID AS "Unidade de Medida Estatística"
+            FROM Importacao
+        ': ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/

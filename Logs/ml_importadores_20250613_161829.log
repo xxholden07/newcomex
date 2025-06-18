@@ -1,0 +1,14 @@
+2025-06-13 16:18:29,915 - INFO - VPN conectada - Host Oracle acessível
+2025-06-13 16:18:29,915 - INFO - VPN conectada - Host Oracle acessível
+2025-06-13 16:18:29,915 - INFO - Tentando conectar ao Oracle (tentativa 1/3)
+2025-06-13 16:18:29,915 - ERROR - Erro na conexão Oracle: connect() got an unexpected keyword argument 'encoding'
+2025-06-13 16:18:29,915 - INFO - Aguardando 5 segundos antes da próxima tentativa...
+2025-06-13 16:18:34,926 - INFO - VPN conectada - Host Oracle acessível
+2025-06-13 16:18:34,926 - INFO - Tentando conectar ao Oracle (tentativa 2/3)
+2025-06-13 16:18:34,929 - ERROR - Erro na conexão Oracle: connect() got an unexpected keyword argument 'encoding'
+2025-06-13 16:18:34,929 - INFO - Aguardando 5 segundos antes da próxima tentativa...
+2025-06-13 16:18:39,930 - INFO - VPN conectada - Host Oracle acessível
+2025-06-13 16:18:39,930 - INFO - Tentando conectar ao Oracle (tentativa 3/3)
+2025-06-13 16:18:39,930 - ERROR - Erro na conexão Oracle: connect() got an unexpected keyword argument 'encoding'
+2025-06-13 16:18:39,930 - ERROR - Erro ao carregar dados de treino: connect() got an unexpected keyword argument 'encoding'
+2025-06-13 16:18:39,930 - ERROR - Erro no processo principal: connect() got an unexpected keyword argument 'encoding'
